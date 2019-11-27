@@ -1,4 +1,11 @@
+
+
+![Pickling | Figure 2.7.3](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Assignment07/snips/Pickling/2.7/2.7.3-%20pickle.loads-output.png "Pickling | Figure 2.7.3 ")  Pickling | Figure 2.7.3
+
+
 ![2.1](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Snips/Pickle/2.1/2.1.py " 2.1.py")
+
+ *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Figure%2017.png)*[#]**(external link)    
 
 
  *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Figure%2017.png)*[#]**(external link)    
