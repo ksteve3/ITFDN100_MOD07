@@ -1,8 +1,16 @@
 
+ 
+  *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.4/2.4a%20-%20Figure%2024.png)*[#]**(external link)
+
+ 
  *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Figure%2017.png)*[#]**(external link)
+ 
  *[Source code: Lib/Pickle.png](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Figure%2017.png)*[Source code: Lib/Pickle.png*[#]**(external link)
+ 
  *[Source code: Lib/Pickle.txt](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Listing%2016%20.txt)*[#]**(external link)
+ 
  *[Source code: Lib/Pickle.txt](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1%20-%20Listing%2016%20.txt)*[#]**(external link)
+ 
  *[Source code: Lib/Pickle.py](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1.py)*[#]**(external link)
  *[Source code: Lib/Pickle.py](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1.py)*[#]**(external link)
  *[Source code: Lib/Pickle.py](https://raw.githubusercontent.com/ksteve3/ITFDN100-Mod07/master/docs/Snips/Pickle/2.1/2.1_Listing%2016.py)*[#]**(external link)
