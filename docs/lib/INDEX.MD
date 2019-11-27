@@ -273,3 +273,4 @@
  *[Source code: Lib/Exception%20Handling.txt](https://raw.githubusercontent.com/ksteve3/ITFDN100_7-1-1/master/docs/lib/Exception%20Handling/7.3/test_file.txt)*[#]**(external link)  
  *[Source code: Lib/Icons.png/icon](https://raw.githubusercontent.com/ksteve3/ITFDN100_7-1-1/master/docs/lib/Icons/VideoTutorial.png)*[#]**(external link)  
  *[Source code: Lib/|.|](|)*[#]**(external link)  
+![ 2.1 - Figure 17](https://github.com/ksteve3/ITFDN100-Mod07/blob/master/docs/Snips/Pickle/2.1/2.1%20-%20Figure%2017.png>" 2.1 - Figure 17.png")
