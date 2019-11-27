@@ -1,0 +1,23 @@
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Research topic: Pickle Module
+# Code Version: Example code 2.3b - Listing 22
+# Description: This tutorial is going to cover the pickle module, which is a
+# part of your standard library with your installation of Python.
+# Reference: Saving Classifiers with NLTK,
+# https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/
+# Related tutorials: Python Pickle Module for saving Objects by serialization,
+# https://pythonprogramming.net/python-pickle-module-save-objects-serialization/
+# Description: Creates a serialized pickle object saved in the script's directory
+#
+# save_classifier = open("naivebayes.pickle","wb")
+# pickle.dump(classifier, save_classifier)
+# save_classifier.close()
+#
+# classifier_f = open("naivebayes.pickle", "rb")
+# classifier = pickle.load(classifier_f)
+# classifier_f.close()
