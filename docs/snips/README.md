@@ -1,9 +1,9 @@
 ![ 7.2_Figure-7.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.png " 7.2_Figure-7.png")   7.2_Figure-7.png  
 ![ 7.2_Figure-8.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-8.png " 7.2_Figure-8.png")   7.2_Figure-8.png  
-![ 7.2_Figure-9.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png " 7.2_Figure-9.png")   7.2_Figure-9.png  
-![ Figure 14.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png " Figure 14.png")   Figure 14.png  
-![ Figure 15.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png " Figure 15.png")   Figure 15.png  
-![ Figure 18.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2018.png " Figure 18.png")   Figure 18.png  
+![ 7.2_Figure-9.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png " 7.2_Figure-9.png")   7.2_Figure-9.png   
+![ Figure 14.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png " Figure 14.png")    Figure 14.png   
+![ Figure 15.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png " Figure 15.png")    Figure 15.png   
+![ Figure 18.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2018.png " Figure 18.png")    Figure 18.png   
 ![ 7.3_Figure-10.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-10.png " 7.3_Figure-10.png")   7.3_Figure-10.png  
 ![ 7.3_Figure-11.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-11.png " 7.3_Figure-11.png")   7.3_Figure-11.png  
 ![ 7.3_Figure-12.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png " 7.3_Figure-12.png")   7.3_Figure-12.png  
