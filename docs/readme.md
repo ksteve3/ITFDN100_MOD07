@@ -372,9 +372,9 @@ p = pickle.dumps(c)
 ```
 Listing 16 : copyreg - Register Pickle
 
-### *2.1 Input Sample from python.org *
+### *2.1 Input Sample from python.org*
 
-#### *2.1 [copyreg – Pickle Registration](https://docs.python.org/3/library/copyreg.html)[47][82][70]
+#### 2.1 *[copyreg – Pickle Registration](https://docs.python.org/3/library/copyreg.html)(external link), [47][82][70]*
 
 ![ 2.1 - Figure 17.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png "Figure 17.png")<br/>Listing 17 : copyreg - Register Pickle<br/><br/>Source code: *[../lib/Pickle /2.1 /2.1 - Figure 17.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png)     , (external link)<br/>
 
