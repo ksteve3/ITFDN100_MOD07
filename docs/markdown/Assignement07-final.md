@@ -278,27 +278,26 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 
 ### Advantages of using Pickle Module:
 
-* Comes handy to save complicated data.
+> > Comes handy to save complicated data.
 
-* Easy to use, lighter and doesn’t require several lines of code.
+> > Easy to use, lighter and doesn’t require several lines of code.
 
-* The pickled file generated is not easily readable and thus provide some security.
+> > The pickled file generated is not easily readable and thus provide some security.
 
-* Recursive objects (objects containing references to themselves): Pickle keeps track of the objects it has already serialized, so later references to the same object won’t be serialized again. (The marshal module breaks for this.)
+> > Recursive objects (objects containing references to themselves): Pickle keeps track of the objects it has already serialized, so later references to the same object won’t be serialized again. (The marshal module breaks for this.)
 
-* Object sharing (references to the same object in different places): This is similar to self- referencing objects; pickle stores the object once and ensures that all other references point to the master copy. Shared objects remain shared, which can be very important for mutable objects.
+> > Object sharing (references to the same object in different places): This is similar to self- referencing objects; pickle stores the object once and ensures that all other references point to the master copy. Shared objects remain shared, which can be very important for mutable objects.
 
-* User-defined classes and their instances: Marshal does not support these at all, but pickle can save and restore class instances transparently. The class definition must be importable and live in the same module as when the object was stored.
+> > User-defined classes and their instances: Marshal does not support these at all, but pickle can save and restore class instances transparently. The class definition must be importable and live in the same module as when the object was stored.
 
-*Disadvantages of Using Pickle Module*
+### Disadvantages of Using Pickle Module
 
-* Languages other than python may not able to reconstruct pickled python objects.
+> > Languages other than python may not able to reconstruct pickled python objects.
 
-* Risk of unpickling data from malicious sources (see Figure 15 ) 
+> > Risk of unpickling data from malicious sources (see Figure 15 ) 
 
-Security Alert 
-
-(At your own risk. Use with caution)
+### **Security Alert**
+#### **(At your own risk. Use with caution)**
 
 ![image alt text](image_13.png)
 
