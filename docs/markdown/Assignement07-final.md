@@ -465,72 +465,177 @@ Source code: *[../lib/Pickle /2.2 /2.2 - Listing 19 .py ](https://raw.githubuse
 
 # *2.3 (a) Pickle Module for saving Objects by serialization** *[95]
 
-![image alt text](image_17.png)Video Tutorial Reference: [95] 
+> Refer to: (video tutorial)
 
-Sentdex, "Python Programming Tutorials," *Pythonprogramming.net*, 2019. [Online]. Available: https://pythonprogramming.net/python-pickle-module-save-objects-serialization/
+> > #### [Python Pickle Module for saving objects (serialization)](https://www.youtube.com/watch?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M&v=2Tw39kZIbhs&feature=emb_logo)
 
-Pickling is used to store python objects. This means things like lists, dictionaries, class objects, and more.
+> > #### Also Refer to: (Full article and video)
+[Python Programming Tutorials](https://pythonprogramming.net/python-pickle-module-save-objects-serialization/)[93]
 
-Generally, you will find pickling to be most useful with data analysis, where you are performing routine tasks on the data, such as pre-processing. Also, it makes a lot of sense when you're working with Python-specific data types, such as dictionaries.
+>Pickling is used to store python objects. This means things like lists, dictionaries, class objects, and more.
 
-For example, we use [pickling in the NLTK tutorial series to save our trained machine learning algorithm](https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/). This is so that, every time we want to use it, we do not need to constantly re-train it, which takes a while.
+>Generally, you will find pickling to be most useful with data analysis, where you are performing routine tasks on the data, such as pre-processing. Also, it makes a lot of sense when you're working with Python-specific data types, such as dictionaries.
 
-Instead, we just train the algorithm once, store it to a variable (an object), and then we pickle it. In the case of the NLTK module, generating the classifiers every time was taking 5-15+ minutes. With pickle, it was taking about 5 seconds.
+>For example, we use [pickling in the NLTK tutorial series to save our trained machine learning algorithm](https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/). This is so that, every time we want to use it, we do not need to constantly re-train it, which takes a while.
 
-If you have a large dataset, for example, and you're loading that massive data set into memory every time you run the program, it may make a lot of sense to just pickle it, and then load that instead, because it will be far faster, again by 50 - 100x, sometimes far more depending on the size.
+>Instead, we just train the algorithm once, store it to a variable (an object), and then we pickle it. In the case of the NLTK module, generating the classifiers every time was taking 5-15+ minutes. With pickle, it was taking about 5 seconds.
 
-Through saving the serialized object, its nature is included, so we don't have to worry about loading things "as" strings, dictionaries, lists, etc.
+>If you have a large dataset, for example, and you're loading that massive data set into memory every time you run the program, it may make a lot of sense to just pickle it, and then load that instead, because it will be far faster, again by 50 - 100x, sometimes far more depending on the size.
 
-# *2.3a Input (Part 1)*
+>Through saving the serialized object, its nature is included, so we don't have to worry about loading things "as" strings, dictionaries, lists, etc.
 
-![image alt text](image_18.png)Listing 21
+### *2.3a Input (Part 1)*
 
-Source code: *[../lib/Pickle /2.3 /2.3a - Listing 21 .txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3a%20-%20Listing%2021%20.txt), (external link)
-Source code: *[../lib/Pickle /2.3 /2.3b - Listing 22.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3b%20-%20Listing%2022.py), (external link)
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Research topic: Pickle Module
+# Code Version: Example code 2.3a - Listing 21
+# Description: This tutorial is going to cover the pickle module, which is a
+# part of your standard library with your installation of Python.
+# Reference: Python Pickle Module for saving Objects by serialization,
+# https://pythonprogramming.net/python-pickle-module-save-objects-serialization/
+# Related tutorials: Saving Classifiers with NLTK,
+# https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/
 
-## *2.3(b) Saving Classifiers with NLTK*
 
-![image alt text](image_19.png) *Video Tutorial Reference:** [26]** **Sentdex," Pythonprogramming.net, 2019. [Online]. Available: https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/**
-*
+ import pickle
 
-Training classifiers and machine learning algorithms can take a very long time, especially if you're training against a larger data set. Ours is actually pretty small. Can you imagine having to train the classifier every time you wanted to fire it up and use it? What horror! Instead, what we can do is use the Pickle module to go ahead and serialize our classifier object, so that all we need to do is load that file in real quick.
+ example_dict = {1:"6",2:"2",3:"f"}
 
-So, how do we do this? The first step is to save the object. To do this, first you need to import pickle at the top of your script, then, after you have trained with .train() the classifier, you can then call the following lines:
+ pickle_out = open("dict.pickle","wb")
+ pickle.dump(example_dict, pickle_out)
+ pickle_out.close()
 
-# 2.3 b Input (Part 2)
+ pickle_in = open("dict.pickle","rb")
+ example_dict = pickle.load(pickle_in)
 
-![image alt text](image_20.png)
+ print(example_dict)
+ print(example_dict[3])
 
+ Through saving the serialized object, it's nature is included, so we
+  don't have to worry about loading things "as" strings, dictionaries, lists, etc.
+```
+Listing 21
+
+Source code: *[../lib/Pickle /2.3 /2.3a - Listing 21 .txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3a%20-%20Listing%2021%20.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.3 /23a - Listing 21.py   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/23a%20-%20Listing%2021.py)     , (external link)<br/>
+
+### *2.3(b) Saving Classifiers with NLTK*
+
+> Refer to: (video tutorial)
+
+> > #### [Python Pickle Module for saving objects (serialization)](https://www.youtube.com/watch?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M&v=2Tw39kZIbhs&feature=emb_logo)
+
+> > #### Also Refer to: (Full article and video)
+[Python Programming Tutorials](https://pythonprogramming.net/python-pickle-module-save-objects-serialization/)[93]
+
+> Training classifiers and machine learning algorithms can take a very long time, especially if you're training against a larger data set. Ours is actually pretty small. Can you imagine having to train the classifier every time you wanted to fire it up and use it? What horror! Instead, what we can do is use the Pickle module to go ahead and serialize our classifier object, so that all we need to do is load that file in real quick.
+
+> So, how do we do this? The first step is to save the object. To do this, first you need to import pickle at the top of your script, then, after you have trained with .train() the classifier, you can then call the following lines:
+
+### 2.3 b Input (Part 2)
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Research topic: Pickle Module
+# Code Version: Example code 2.3b - Listing 22
+# Description: This tutorial is going to cover the pickle module, which is a
+# part of your standard library with your installation of Python.
+# Reference: Saving Classifiers with NLTK,
+# https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/
+# Related tutorials: Python Pickle Module for saving Objects by serialization,
+# https://pythonprogramming.net/python-pickle-module-save-objects-serialization/
+# Description: Creates a serialized pickle object saved in the script's directory
+#
+# save_classifier = open("naivebayes.pickle","wb")
+# pickle.dump(classifier, save_classifier)
+# save_classifier.close()
+#
+# classifier_f = open("naivebayes.pickle", "rb")
+# classifier = pickle.load(classifier_f)
+# classifier_f.close()
+```
 Listing 22
 
-Source code: *[../lib/Pickle /2.3 /2.3b - Listing 22.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3b%20-%20Listing%2022.txt), (external link)
+Source code: *[../lib/Pickle /2.3 /2.3b - Listing 22.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3b%20-%20Listing%2022.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.3 /2.3b - Listing 22.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3b%20-%20Listing%2022.py), (external link)<br/>
 
-Source code: *[../lib/Pickle /2.3 /2.3b - Listing 22.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3b%20-%20Listing%2022.py), (external link)
+### 2.4 Understanding Python Pickling [9]
 
-# 2.4 Understanding Python Pickling [9]
+> #### Prerequisite: [**Pickle Module**](https://www.geeksforgeeks.org/pickle-python-object-serialization/)[23]: **See Examples in   2.5**
 
-*Prerequisite: **[Pickle Modul*e](https://www.geeksforgeeks.org/pickle-python-object-serialization/)* **[23]**  **🡪** See 2.5 *
-
-Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk. What pickle does is that it "serializes" the object first before writing it to file. Pickling is a way to convert a python object (list, dict, etc.) into a character stream. The idea is that this character stream contains all the information necessary to reconstruct the object in another python script.
+> > Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk. What pickle does is that it "serializes" the object first before writing it to file. Pickling is a way to convert a python object (list, dict, etc.) into a character stream. The idea is that this character stream contains all the information necessary to reconstruct the object in another python script.
 
 # 2.4 Input:
 
-![image alt text](image_21.png)Listing 23
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Research topic: Pickle Module
+# Code Version: Example code 2.4a_listing 23
+# Pickling without a file
+# Understanding Python Pickling with example, https://www.geeksforgeeks.org/understanding-python-pickling-example/
+# Related tutorials: Prerequisite: Pickle Module, Prerequisite: Pickle Module
+# Python3 program to illustrate store 
+# efficiently using pickle module 
+# Module translates an in-memory Python object 
+# into a serialized byte stream—a string of 
+# bytes that can be written to any file-like object. 
 
-Source code: **[../lib/Pickle /2.4 /2.4a - Listing 23 .txt* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Listing%2023%20.txt), (external link)
-Source code: **[../lib/Pickle /2.4 /2.4a - Listing 23.py* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Listing%2023.py), (external link)
+import pickle 
 
-**_2.4 Output:_**
+def storeData(): 
+	# initializing data to be stored in db 
+	Omkar = {'key' : 'Omkar', 'name' : 'Omkar Pathak', 
+	'age' : 21, 'pay' : 40000} 
+	Jagdish = {'key' : 'Jagdish', 'name' : 'Jagdish Pathak', 
+	'age' : 50, 'pay' : 50000} 
 
-![image alt text](image_22.png)
+	# database 
+	db = {} 
+	db['Omkar'] = Omkar 
+	db['Jagdish'] = Jagdish 
 
-Figure 24
+	# Its important to use binary mode 
+	dbfile = open('examplePickle', 'ab') 
 
-##### [Figure 24.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.4/2.4a%20-%20Figure%2024.png)
+	# source, destination 
+	pickle.dump(db, dbfile)					 
+	dbfile.close() 
 
-##### *2.4(b) *Input: (Pickle without a file)
+def loadData(): 
+	# for reading also binary mode is important 
+	dbfile = open('examplePickle', 'rb')	 
+	db = pickle.load(dbfile) 
+	for keys in db: 
+		print(keys, '=>', db[keys]) 
+	dbfile.close() 
 
-![image alt text](image_23.png)Listing 25
+if __name__ == '__main__': 
+	storeData() 
+	loadData() 
+```
+Listing 23
+
+Source code: **[../lib/Pickle /2.4 /2.4a - Listing 23 .txt* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Listing%2023%20.txt), (external link)<br/>
+Source code: **[../lib/Pickle /2.4 /2.4a - Listing 23.py* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Listing%2023.py), (external link)<br/>
+
+**2.4 Output:**
+
+![ 2.4a - Figure 24.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Figure%2024.png "Figure 24.png")<br/>Figure 24.png<br/><br/>Source code: *[../lib/Pickle /2.4 /2.4a - Figure 24.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Figure%2024.png)     , (external link)<br/>
 
 Source code: **[../lib/Pickle /2.4 /2.4b - Listing 25.py* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4b%20-%20Listing%2025.py), (external link)
 Source code: **[../lib/Pickle /2.4 /2.4b - Listing 25.txt* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4b%20-%20Listing%2025.txt), (external link)
