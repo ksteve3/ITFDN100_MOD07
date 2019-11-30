@@ -152,11 +152,13 @@ Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.gith
 
 ## Example:7.2- *Custom Exception Handlers
 
-### *Refer to :*
+> *Refer to :*
 
-### *[CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
+> > [**Python Tutorial: Using Try/Except Blocks for Error Handling**](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 00:50
 
-#### *7.2 Output Requirements:*
+> > ### [**CoreyMSchafer**](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
+
+*7.2 Output Requirements:*
 
 *Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user of a FileNotFound error using custom error messages.  (Use Figure 5 input code as "starter-code")*
 
@@ -300,7 +302,7 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 
 ## 2.1 Register Pickle Python.org [47][82][90]
 
-*Example Code*
+* Example Code*
 
  The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) — Register [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) support functions
 
@@ -308,17 +310,13 @@ The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_r
 
 The [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle), [**cPickle**](https://docs.python.org/2/library/pickle.html#module-cPickle), and [**copy**](https://docs.python.org/2/library/copy.html#module-copy) modules use those functions when pickling/copying those objects. The module provides configuration information about object constructors which are not classes. Such constructors may be factory functions or class instances.
 
-#### *copyreg.constructor(object)*
+The [**copyreg.constructor(object)**] Declares *object* to be a valid constructor. If *object* is not callable (and hence not valid as a constructor), raises [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link).
 
-* Declares *object* to be a valid constructor. If *object* is not callable (and hence not valid as a constructor), raises [TypeError](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link).
+[**copyreg.pickle(type, function[, constructor**] Declares that *function* should be used as a "reduction" function for objects of type *type*; *type* must not be a “classic” class object. (Classic classes are handled differently; see the documentation for the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) module for details.) *function* should return either a string or a tuple containing two or three elements.
 
-*copyreg.pickle(type, function[, constructor])*
+The optional *constructor* parameter, if provided, is a callable object which can be used to reconstruct the object when called with the tuple of arguments returned by *function* at pickling time. [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link). will be raised if *object* is a class or *constructor* is not callable.
 
-* Declares that *function* should be used as a "reduction" function for objects of type *type*; *type* must not be a “classic” class object. (Classic classes are handled differently; see the documentation for the [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) module for details.) *function* should return either a string or a tuple containing two or three elements.
-
-* The optional *constructor* parameter, if provided, is a callable object which can be used to reconstruct the object when called with the tuple of arguments returned by *function* at pickling time. [TypeError](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link). will be raised if *object* is a class or *constructor* is not callable.
-
-* See the [pickle](https://docs.python.org/2/library/pickle.html#module-pickle)[49] (external link) module for more details on the interface expected of *function* and *constructor*.
+* See the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle)[49] (external link) module for more details on the interface expected of *function* and *constructor*.
 
 # *2.1 copyreg – Pickle Registration*[47] [70]
 
