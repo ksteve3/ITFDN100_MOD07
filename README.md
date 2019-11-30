@@ -1,14 +1,10 @@
 # ITFDN100-Mod07
- #### Files for Module 7 (old)
-
+ #### Files for Module 7
+ 
  Date: 11.21.19
- 
  Descprition: File & Assignemnet documents for Module07
- 
  Dev: Kstevens
- 
  ITFDN100 A
- 
  Assignment07
  
  ## Quick links to the Assignment07 deliverables:  
@@ -19,17 +15,17 @@ Assignment07 Docx:
 
 Assignment07 GitPage:
 
-> > [Assignement07-final.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignment07.md<br/>
+> > [Assignement07.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignment07.md<br/>)
  
 ## Reference Docs for Module07
  
- _Mod7PythonProgrammingNotes.pdf | https://canvas.uw.edu/courses/1342958/modules/items/9973246
+ [_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246)
  
- Lab7-1_Starter.py | https://canvas.uw.edu/courses/1342958/modules/items/9973388
+ [Lab7-1_Starter.py](https://canvas.uw.edu/courses/1342958/modules/items/9973388)
  
- Assignment07.pdf | https://canvas.uw.edu/courses/1342958/modules/items/9973247
+ [Assignment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247)
  
- Module07 Course Video  | https://youtu.be/4IkIdXJBC6o
+ [Module07 Course Video](https://youtu.be/4IkIdXJBC6o)
  
 
 
