@@ -189,7 +189,9 @@ Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.gi
 
 > #### *Refer to :*
 
-> > #### *[CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)* Timestamp: 5:00
+> > [**Python Tutorial: Using Try/Except Blocks for Error Handling**](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 05:00
+
+> > ### [**CoreyMSchafer**](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
 
 > > #### Please also refer to python.org [Built-in Exceptions — Python 2.5.17 documentation](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [81]
 
@@ -197,11 +199,11 @@ Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.gi
 
 > > Figures 10, 11 & 12 show the successful implementation of a Try/Except block using Python’s built-in error handling messages. 
 
-> > Using the successful Try/except block from Example 7.2, Figure 7 as "starter code, manipulate the Try/except block code to implement multiple exception handlers with built-in error message descriptions.  
+> > Using the successful Try/except block from Example 7.2, Figure 7 as "starter code, manipulate the Try/except block code to implement multiple exception handlers with built-in error message descriptions.
 
-> ####  *7.3 Output Requirements:*  
+> ####  **7.3 Output Requirements:***
 
-> **Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user when an error occurs using Python’s built-in exception handlers.
+> **Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user when an error occurs using Python’s built-in exception handlers.**
 
  ### *7.3 Input*
 
