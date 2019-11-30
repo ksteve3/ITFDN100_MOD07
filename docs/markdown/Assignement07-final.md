@@ -187,13 +187,13 @@ Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.gi
 
 ## Example:7.3 – Built-in Exception Handling *
 
-> #### *Refer to :*
+> #### **Refer to :**
 
 > > [**Python Tutorial: Using Try/Except Blocks for Error Handling**](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 05:00
 
 > > ### [**CoreyMSchafer**](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
 
-> > #### Please also refer to python.org [Built-in Exceptions — Python 2.5.17 documentation](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [81]
+> > #### **Please also refer to python.org [**Built-in Exceptions — Python 2.5.17 documentation**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [81]**
 
 > #### Examples in 7.3 Overview
 
