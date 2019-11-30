@@ -117,11 +117,14 @@ In this case the code instructs to open a file, however the name of the file spe
 Figures 1 & 3 also shows that a Try/except exception block has been accepted in the code but skipped over because the exception is read as a "pass" otherwise known as a placeholder. In order to implement an Exception handler to override Python’s default traceback error message shown in (Figures 1 & 3), the developer must replace “pass” (shown in Figures 1 & 3) with a valid exception handler. 
 
 ### 7.1 Input "Starter-code" (without exception handler)
+
 ![ 7.1_Figure-1.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-1.png "Figure-1.png")<br/>Figure 1: User Input with incorrect file name (red) without an active exception handler in place of the "pass" placeholder.<br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-1.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-1.png)     , (external link)<br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Listing-1.txt   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Listing-1.txt)     , (external link)<br/>Source code: *[../lib/Exception Handling /7.1 /Start_Code.py   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/Start_Code.py)     , (external link)<br/>Source code: *[../lib/Exception Handling /7.1 /test_file.txt   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/test_file.txt)     , (external link)<br/>
 
 ### 7.1 Output "Starter-code" (without exception handler)
 
-![ 7.1_Figure-2.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png "Figure 2: Default error message "output" displayed in CMD running code from Figure 1")<br/>Figure 2: Default error message "output" displayed in CMD running code from Figure 1.<br/>[Figure-2.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png)
+![ 7.1_Figure-2.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png "Figure-2.png")<br/>Figure-2.png<br/>[Figure-2.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png)
+
+![ 7.1_Figure-2.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png "Figure 2: Default error message "output" displayed in CMD running code from Figure 1.")<br/>Figure 2: Default error message "output" displayed in CMD running code from Figure 1.<br/>[Figure-2.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png)
 
 
 
