@@ -324,15 +324,15 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw
 
 > > [**copyreg.pickle(type, function[, constructor**] Declares that *function* should be used as a "reduction" function for objects of type *type*; *type* must not be a “classic” class object. (Classic classes are handled differently; see the documentation for the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) module for details.) *function* should return either a string or a tuple containing two or three elements.
 
-> >  > **The optional *constructor* parameter, if provided, is a callable object which can be used to reconstruct the object when called with the tuple of arguments returned by *function* at pickling time. [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link). will be raised if *object* is a class or *constructor* is not callable.8**
+> **The optional *constructor* parameter, if provided, is a callable object which can be used to reconstruct the object when called with the tuple of arguments returned by *function* at pickling time. [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link). will be raised if *object* is a class or *constructor* is not callable.8**
 
 > **See the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle)[49] (external link) module for more details on the interface expected of *function* and *constructor*.**
 
-### *2.1 copyreg – Pickle Registration*[47] [70]
+## *2.1 [copyreg – Pickle Registration](Available: https://docs.python.org/3/library/copyreg.html)[47] [70]
 
-> *Example code* 
+#### *Example code* 
 
-> > #### 2.1 Input (Register Pickle, http://python.org)
+> > ### *2.1 Input (Register Pickle, http://python.org)*
 
 ```
 # ------------------------------------------------------------------------ #
@@ -366,26 +366,26 @@ d = copy.copy(c)
 p = pickle.dumps(c)
 #pickling a C instance...
 ```
-Listing 16
+Listing 16 : copyreg - Register Pickle
 
-> > #### *2.1 Input Sample ( https://python.org)*
+> > ### *2.1 Input Sample ( https://python.org)*
 
 ![ 2.1 - Figure 17.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png "Figure 17.png")<br/>Figure 17.png<br/><br/>Source code: *[../lib/Pickle /2.1 /2.1 - Figure 17.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png)     , (external link)<br/>
 
 
-# *2.2 Pickle / Unpickle*
+## *2.2 Pickle / Unpickle*
 
-*Example Code*
+#### **Example Code**
 
-# 2.2 Python Pickling & Unpickling [69] [94]
+> ### **2.2 Python Pickling & Unpickling [69] [94]**
 
-Python pickle module is used for serializing and de-serializing python object structures. The process to converts any kind of python objects (list, dict, etc.) into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling. We can converts the byte stream (generated through pickling) back into python objects by a process called as unpickling. 
+> > Python pickle module is used for serializing and de-serializing python object structures. The process to converts any kind of python objects (list, dict, etc.) into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling. We can converts the byte stream (generated through pickling) back into python objects by a process called as unpickling. 
 
-*Why Pickle?: *
+> #### **Why Pickle?: **
 
-In real world scenario, the use pickling and unpickling are widespread as they allow us to easily transfer data from one server/system to another and then store it in a file or database.
+> > In real world scenario, the use pickling and unpickling are widespread as they allow us to easily transfer data from one server/system to another and then store it in a file or database.
 
-Note Before you Unpickle:
+### **Note: Before you Unpickle:**
 
 * *Only after importing pickle module we can do pickling and unpickling. *
 
