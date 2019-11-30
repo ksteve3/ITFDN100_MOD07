@@ -2,9 +2,9 @@
 
 ### Premade links consolidated:
 
-*[png linked.md	Update png linked.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/snips/png%20linked.md)*
-*[png-txt link consolidated.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/snips/png-txt%20link%20consolidated.md)*
-*[txt-with-link.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/snips/txt-with-link.md)*
+*[png linked.md	Update png linked.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/snips/png%20linked.md)*<br/>
+*[png-txt link consolidated.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/snips/png-txt%20link%20consolidated.md)*<br/>
+*[txt-with-link.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/snips/txt-with-link.md)*<br/>
 
 ### Content pages/docx
 
