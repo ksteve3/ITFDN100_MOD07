@@ -380,31 +380,84 @@ Listing 16 : copyreg - Register Pickle
 
 > ### **2.2 [Python Pickling & Unpickling](https://www.tutorialspoint.com/python-pickling)[45][48]**
 
-> Python pickle module is used for serializing and de-serializing python object structures. The process to converts any kind of python objects (list, dict, etc.) into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling. We can converts the byte stream (generated through pickling) back into python objects by a process called as unpickling. 
+> >  Python pickle module is used for serializing and de-serializing python object structures. The process to converts any kind of python objects (list, dict, etc.) into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling. We can converts the byte stream (generated through pickling) back into python objects by a process called as unpickling. 
 
-> #### **Why Pickle?: **
+> . #### **Why Pickle?: **
 
-> In real world scenario, the use pickling and unpickling are widespread as they allow us to easily transfer data from one server/system to another and then store it in a file or database.
+> > In real world scenario, the use pickling and unpickling are widespread as they allow us to easily transfer data from one server/system to another and then store it in a file or database.
 
 > ### **Note: Before you Unpickle:**
 
-> **Only after importing pickle module we can do pickling and unpickling.**
+> > > **Only after importing pickle module we can do pickling and unpickling.**
 
-> **On running above script(unpickle) (below) we get our dictionary back as we initialized earlier.**
+> > > **On running above script(unpickle) (below) we get our dictionary back as we initialized earlier.**
 
-> **Also, please note because we are reading bytes here, we have used "rb" instead of “r”**
+> > > **Also, please note because we are reading bytes here, we have used "rb" instead of “r”**
 
 ![Warning Message_Figure 18-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2018.png "Figure 18-Warning Message .png")<br/>Figure 18: Security warning - [python.org](https://docs.python.org/3/library/json.html#module-json) [60] (external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 18.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2018.png)     , (external link)<br/>
 
 ### *2.2. Input*
 
-![image alt text](image_16.png)
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Research topic: Pickle Module
+# Code Version: Example code 2.2
+# Reference: “Python Pickling” (Tutorialspoint.com, 2019)
+# <https://www.tutorialspoint.com/python-pickling> accessed November 24, 2019.
+# Description: Python pickle module is used for serializing and de-serializing python
+# object structures. The process to converts any kind of python objects (list, dict, etc.)
+# into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling.
+# We can converts the byte stream (generated through pickling) back into python objects by a
+# process called as unpickling.
+# Why Pickle?: In real world sceanario, the use pickling and unpickling are widespread as
+# they allow us to easily transfer data from one server/system to another and then store
+# it in a file or database.
+# Precaution: It is advisable not to unpickle data received from an untrusted source as
+# they may pose security threat. However, the pickle module has no way of knowing or raise
+# alarm while pickling malicious data.
+# Only after importing pickle module we can do pickling and unpickling.
 
+import pickle
+#Pickle examples:
+# Below is a simple program on how to pickle a list:
+# Pickle a simple list: Pickle_list1.py
+
+import pickle
+mylist = ['a', 'b', 'c', 'd']
+with open('datafile.txt', 'wb') as fh:
+   pickle.dump(mylist, fh)
+#In the above code, list – “mylist” contains four elements (‘a’, ‘b’, ‘c’, ‘d’). We open
+# the file in “wb” mode instead of “w” as all the operations are done using bytes
+# in the current working directory. A new file named “datafile.txt” is created, which
+# converts the mylist data in the byte stream.
+#Unpickle a simple list: unpickle_list1.py
+import pickle
+pickle_off = open ("datafile.txt", "rb")
+emp = pickle.load(pickle_off)
+print(emp)
+# Output: On running above scripts, you can see your mylist data again as output.
+# ['a', 'b', 'c', 'd']
+# Pickle a simple dictionary −
+import pickle
+EmpID = {1:"Zack",2:"53050",3:"IT",4:"38",5:"Flipkart"}
+pickling_on = open("EmpID.pickle","wb")
+pickle.dump(EmpID, pickling_on)
+pickling_on.close()
+# Unpickle a dictionary −
+import pickle
+pickle_off = open("EmpID.pickle", 'rb')
+EmpID = pickle.load(pickle_off)
+print(EmpID)
+```
 Listing 19
 
-Source code: *[../lib/Pickle /2.2 /2.2 - Listing 19 .txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.2/2.2%20-%20Listing%2019%20.txt), (external link)
-
-Source code: *[../lib/Pickle /2.2 /2.2 - Listing 19 .py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.2/2.2%20-%20Listing%2019%20.py), (external link)
+Source code: *[../lib/Pickle /2.2 /2.2 - Listing 19 .txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.2/2.2%20-%20Listing%2019%20.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.2 /2.2 - Listing 19 .py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.2/2.2%20-%20Listing%2019%20.py), (external link)<br/>
 
 # *2.2 Output*
 
