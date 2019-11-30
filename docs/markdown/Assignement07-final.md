@@ -227,56 +227,63 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw
 ![ 7.3_Figure-13.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-13.png "Figure-13.png")<br/>Figure 13: Exception handling success!<br/><br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-13.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-13.png)     , (external link)<br/>
 
 
-# Pickling in Python
+## Pickling in Python
 
-> #### [**Assignment07.pdf**](https://canvas.uw.edu/courses/1342958/files/59791641?module_item_id=9973247)[65]
+> > [**Assignment07.pdf**](https://canvas.uw.edu/courses/1342958/files/59791641?module_item_id=9973247)[65]
 
-> *Search the web for examples of how to use Python’s Pickling features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way.*
+> > *Search the web for examples of how to use Python’s Pickling features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way.*
 
-> > ## :mod:`pickle` --- Python object serialization*[15]
+### :mod:`pickle` --- Python object serialization*[15]
 
-The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49] module implements a fundamental, but powerful algorithm for serializing and de-serializing a Python object structure. "Pickling" is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” [49] or “flattening”, however, to avoid confusion, the terms used here are “pickling” and “unpickling”.
+> > The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49] module implements a fundamental, but powerful algorithm for serializing and de-serializing a Python object structure. "Pickling" is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” [49] or “flattening”, however, to avoid confusion, the terms used here are “pickling” and “unpickling”.
 
-![Warning Message _Figure 14-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png "Figure 14-Warning Message .png")<br/>Figure 14: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58](external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 14.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png)     , (external link)<br/>
+> > ![Warning Message _Figure 14-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png "Figure 14-Warning Message .png")<br/>Figure 14: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58](external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 14.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png)     , (external link)<br/>
 
-## Defined Functions of Pickle Module: 
+### Defined Functions of Pickle Module: 
 
-#### *Apart from the Pickler and Unpickler classes, the module defines the following functions, and an exception:*
+> **Apart from the Pickler and Unpickler classes, the module defines the following functions, and an exception:**
 
-> **dump** (*object, file*[*, bin*])
-> *Write a pickled representation of *object* to the open file object *file*. This is equivalent to "Pickler(*file*, *bin*).dump(*object*)". If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.*
+> > > **dump** (*object, file*[*, bin*])
+> > > *Write a pickled representation of *object* to the open file object *file*. This is equivalent to "Pickler(*file*, *bin*).dump(*object*)". If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.*
 
-> **load** (*file*)
-> *Read a pickled object from the open file object *file*. This is equivalent to "Unpickler(*file*).load()".*
+> > > **load** (*file*)
+> > > *Read a pickled object from the open file object *file*. This is equivalent to "Unpickler(*file*).load()".*
 
-> **dumps** (*object*[*, bin*])
-> *Return the pickled representation of the object as a string, instead of writing it to a file. If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.*
+> > > **dumps** (*object*[*, bin*])
+> > > *Return the pickled representation of the object as a string, instead of writing it to a file. If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.*
 
-> **loads** (*string*)
-> *Read a pickled object from a string instead of a file. Characters in the string past the pickled object's representation are ignored.*
+> > > **loads** (*string*)
+> > > *Read a pickled object from a string instead of a file. Characters in the string past the pickled object's representation are ignored.*
 
 ### Pickle Exceptions
 
-##### *Below are some of the common exceptions raised while dealing with pickle module −*
+> **Below are some of the common exceptions raised while dealing with pickle module −**
 
-> **PicklingError**
-> *This exception is raised when an unpicklable object is passed to Pickler.dump().*
+> > > **PicklingError**
+> > > *This exception is raised when an unpicklable object is passed to Pickler.dump().*
 
-> **Pickle.PicklingError:** If the pickle object doesn’t support pickling, this exception is raised.
+> > > **Pickle.PicklingError:** 
+> > > If the pickle object doesn’t support pickling, this exception is raised.
 
-> **Pickle.UnpicklingError:** In case the file contains bad or corrupted data.
+> > > **Pickle.UnpicklingError:** 
+> > > In case the file contains bad or corrupted data.
 
-> **EOFError:** In case the end of file is detected, this exception is raised.
+> > > **EOFError:** 
+> > > In case the end of file is detected, this exception is raised.
 
-##### *See Also:*
+> > **See Also:**
 
-> > Module [**copyreg]**](https://docs.python.org/2.0/lib/module-copyreg.html) [82] (external link):pickle interface constructor registration.
+> > > > Module [**copyreg]**](https://docs.python.org/2.0/lib/module-copyreg.html) [82] (external link):
+> > > > pickle interface constructor registration.
 
-> > Module [**shelve**](https://docs.python.org/2.0/lib/module-shelve.html) [56]  (external link): indexed databases of objects; uses pickle.
+> > > > Module [**shelve**](https://docs.python.org/2.0/lib/module-shelve.html) [56]  (external link): 
+> > > > indexed databases of objects; uses pickle.
 
-> > Module [**copy**](https://docs.python.org/2.0/lib/module-copy.html)[83]] (external link): shallow and deep object copying.
+> > > > Module [**copy**](https://docs.python.org/2.0/lib/module-copy.html)[83]] (external link): 
+> > > > shallow and deep object copying.
 
-> > Module [**marsha:**](https://docs.python.org/2.0/lib/module-marshal.html)[58] (external link): high-performance serialization of built-in types.
+> > > > Module [**marsha:**](https://docs.python.org/2.0/lib/module-marshal.html)[58] (external link): 
+> > > > high-performance serialization of built-in types.
 
 ### Advantages of using Pickle Module:
 
@@ -303,37 +310,34 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 
 ![Warning Message_Figure 15-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png "Figure 15-Warning Message .png")<br/>Figure 15: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58] (external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 15.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png)     , (external link)<br/>
 
-## 2.1 Register Pickle Python.org [47][82][90]
+### 2.1 Register Pickle Python.org [47][82][90]
 
-* Example Code*
+*Example Code*
 
- The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) — Register [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) support functions
+ > > > > The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) — Register [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) support functions
 
-The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) module offers a way to define functions used while pickling specific objects.
+> > > > The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) module offers a way to define functions used while pickling specific objects.
 
-The [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle), [**cPickle**](https://docs.python.org/2/library/pickle.html#module-cPickle), and [**copy**](https://docs.python.org/2/library/copy.html#module-copy) modules use those functions when pickling/copying those objects. The module provides configuration information about object constructors which are not classes. Such constructors may be factory functions or class instances.
+> > > > The [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle), [**cPickle**](https://docs.python.org/2/library/pickle.html#module-cPickle), and [**copy**](https://docs.python.org/2/library/copy.html#module-copy) modules use those functions when pickling/copying those objects. The module provides configuration information about object constructors which are not classes. Such constructors may be factory functions or class instances.
 
-The [**copyreg.constructor(object)**] Declares *object* to be a valid constructor. If *object* is not callable (and hence not valid as a constructor), raises [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link).
+> > > > The [**copyreg.constructor(object)**] Declares *object* to be a valid constructor. If *object* is not callable (and hence not valid as a constructor), raises [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link).
 
-[**copyreg.pickle(type, function[, constructor**] Declares that *function* should be used as a "reduction" function for objects of type *type*; *type* must not be a “classic” class object. (Classic classes are handled differently; see the documentation for the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) module for details.) *function* should return either a string or a tuple containing two or three elements.
+> > > > [**copyreg.pickle(type, function[, constructor**] Declares that *function* should be used as a "reduction" function for objects of type *type*; *type* must not be a “classic” class object. (Classic classes are handled differently; see the documentation for the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) module for details.) *function* should return either a string or a tuple containing two or three elements.
 
-The optional *constructor* parameter, if provided, is a callable object which can be used to reconstruct the object when called with the tuple of arguments returned by *function* at pickling time. [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link). will be raised if *object* is a class or *constructor* is not callable.
+> > > > The optional *constructor* parameter, if provided, is a callable object which can be used to reconstruct the object when called with the tuple of arguments returned by *function* at pickling time. [**TypeError**](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [88] (external link). will be raised if *object* is a class or *constructor* is not callable.
 
-* See the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle)[49] (external link) module for more details on the interface expected of *function* and *constructor*.
+> > > > See the [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle)[49] (external link) module for more details on the interface expected of *function* and *constructor*.
 
-# *2.1 copyreg – Pickle Registration*[47] [70]
+### *2.1 copyreg – Pickle Registration*[47] [70]
 
-*Example code*
+> *Example code* 
 
-##### 2.1 Input (Register Pickle, http://python.org)
+> > #### 2.1 Input (Register Pickle, http://python.org)
 
-##### ![image alt text](image_14.png)Listing 16
 
-##### Source code: *[../lib/Pickle /2.1 /2.1 - Listing 16 .txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Listing%2016%20.txt), (external link)
+Listing 16
 
-Source code: *[../lib/Pickle /2.1 /2.1_Listing 16.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1_Listing%2016.py), (external link)
-
-*2.1 Input Sample ( https://python.org)*
+> > #### *2.1 Input Sample ( https://python.org)*
 
 ![image alt text](image_15.png)
 
