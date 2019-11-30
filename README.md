@@ -11,6 +11,16 @@
  
  Assignment07
  
+ ## Quick links to the Assignment07 deliverables:  
+
+Assignment07 Docx: 
+
+> > [Assignement07.docx](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignement07.docx)<br/>
+
+Assignment07 GitPage:
+
+> > [Assignement07-final.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignment07.md<br/>
+ 
 ## Reference Docs for Module07
  
  _Mod7PythonProgrammingNotes.pdf | https://canvas.uw.edu/courses/1342958/modules/items/9973246
@@ -33,3 +43,7 @@
 - Creating a class derived from Exception classes
 - Markdown languages
 - Using Markdown on a GitHub webpages
+
+
+
+
