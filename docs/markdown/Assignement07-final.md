@@ -273,7 +273,7 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw
 
 > > **See Also:**
 
-> > > > Module [**copyreg]**](https://docs.python.org/2.0/lib/module-copyreg.html) [82] (external link):
+> > > > Module [**copyreg**](https://docs.python.org/2.0/lib/module-copyreg.html) [82] (external link):
 > > > > pickle interface constructor registration.
 
 > > > > Module [**shelve**](https://docs.python.org/2.0/lib/module-shelve.html) [56]  (external link): 
