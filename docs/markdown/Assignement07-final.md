@@ -961,8 +961,7 @@ This class takes a binary file for writing a pickle data stream.
 > > ### *2.5(d) Output (pickle.load:)*
 
 > > ![ 2.5d_Figure-34.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-34.png "Figure-34.png")<br/>Figure-34.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5d_Figure-34.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-34.png)     , (external link)<br/>
-
-Source code: *[../lib/Pickle /2.5 /2.5d_Listing-32.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Listing-32.txt), (external link)<br/>
+> > Source code: *[../lib/Pickle /2.5 /2.5d_Listing-32.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Listing-32.txt), (external link)<br/>
 Source code: *[../lib/Pickle /2.5 /2.5d.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d.py), (external link)<br/>
 
 
