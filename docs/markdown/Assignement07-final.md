@@ -42,21 +42,21 @@ Assignment07
 
 > > The tutorial I choose to model the following examples from, stood out to me because it allowed the viewer to experience the narrators fluid and uncut thought process while evolving the code through several stages of performance and efficiency allowing the viewer to "Thought Shadow" every step of his development process and logic. 
 
-## Exception Handling in Python
+## **Exception Handling in Python**
 
-> > **Examples 7.1, 7.2, 7.3**
+> **Examples 7.1, 7.2, 7.3**
 
 > > ### *Follow the YouTube tutorial !*
 
-> > > ##### [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 00:50 
+> > > > ##### [**Python Tutorial: Using Try/Except Blocks for Error Handling**](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 00:50 
 
 > > ### *Download the Sample Code from GitHub !* 
 
-> > > #### [CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
+> > > > #### [**CoreyMSchafer**](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
 
-> > >Branch: master 
+> > > > Branch: master 
 
- > > > [**code_snippets**](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
+> > > > [**code_snippets**](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
 
 > > > > <table>
   <tr>
@@ -90,14 +90,12 @@ Assignment07
     <td></td>
   </tr>
 </table>
-
-
-Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer](https://github.com/CoreyMSchafer)*, (external link)
+> > > > Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer](https://github.com/CoreyMSchafer)*, (external link)
 
 ## Examples 7.1 - Basic Exception Handler
 
-### **Refer to :**
-#### *[CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
+> **Refer to :**
+> > #### [**CoreyMSchafer**](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
 
 > **Description:**
 
