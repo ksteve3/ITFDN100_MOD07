@@ -332,8 +332,7 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw
 
 #### *Example code* 
 
-> > ### *2.1 Input (Register Pickle, http://python.org)*
-
+### *2.1 Input (Register Pickle)
 ```
 # ------------------------------------------------------------------------ #
 # Title: Assignment 07
@@ -368,36 +367,36 @@ p = pickle.dumps(c)
 ```
 Listing 16 : copyreg - Register Pickle
 
-> > ### *2.1 Input Sample ( https://python.org)*
+### *2.1 Input Sample from python.org *
 
-![ 2.1 - Figure 17.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png "Figure 17.png")<br/>Figure 17.png<br/><br/>Source code: *[../lib/Pickle /2.1 /2.1 - Figure 17.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png)     , (external link)<br/>
+#### *2.1 [copyreg – Pickle Registration](https://docs.python.org/3/library/copyreg.html)[47][82][70]
+
+![ 2.1 - Figure 17.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png "Figure 17.png")<br/>Listing 17 : copyreg - Register Pickle<br/><br/>Source code: *[../lib/Pickle /2.1 /2.1 - Figure 17.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.1/2.1%20-%20Figure%2017.png)     , (external link)<br/>
 
 
 ## *2.2 Pickle / Unpickle*
 
 #### **Example Code**
 
-> ### **2.2 Python Pickling & Unpickling [69] [94]**
+> ### **2.2 [Python Pickling & Unpickling](https://www.tutorialspoint.com/python-pickling)[45][48]**
 
-> > Python pickle module is used for serializing and de-serializing python object structures. The process to converts any kind of python objects (list, dict, etc.) into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling. We can converts the byte stream (generated through pickling) back into python objects by a process called as unpickling. 
+> Python pickle module is used for serializing and de-serializing python object structures. The process to converts any kind of python objects (list, dict, etc.) into byte streams (0s and 1s) is called pickling or serialization or flattening or marshalling. We can converts the byte stream (generated through pickling) back into python objects by a process called as unpickling. 
 
 > #### **Why Pickle?: **
 
-> > In real world scenario, the use pickling and unpickling are widespread as they allow us to easily transfer data from one server/system to another and then store it in a file or database.
+> In real world scenario, the use pickling and unpickling are widespread as they allow us to easily transfer data from one server/system to another and then store it in a file or database.
 
-### **Note: Before you Unpickle:**
+> ### **Note: Before you Unpickle:**
 
-* *Only after importing pickle module we can do pickling and unpickling. *
+> **Only after importing pickle module we can do pickling and unpickling.**
 
-* *On running above script(unpickle) (below) we get our dictionary back as we initialized earlier. *
+> **On running above script(unpickle) (below) we get our dictionary back as we initialized earlier.**
 
-* *Also, please note because we are reading bytes here, we have used "rb" instead of “r”*
+> **Also, please note because we are reading bytes here, we have used "rb" instead of “r”**
 
-Figure 18: Security warning - [python.org](https://docs.python.org/3/library/json.html#module-json) [60] (external link)
+![Warning Message_Figure 18-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2018.png "Figure 18-Warning Message .png")<br/>Figure 18: Security warning - [python.org](https://docs.python.org/3/library/json.html#module-json) [60] (external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 18.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2018.png)     , (external link)<br/>
 
-##### [Figure 18-Warning Message .png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2018.png)
-
-# *2.2. Input*
+### *2.2. Input*
 
 ![image alt text](image_16.png)
 
