@@ -223,7 +223,8 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw.
 
 ### *7.3 Input / Output PyCharm Overview*
 
-![ 7.3_Figure-12.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png "Figure-12.png")<br/>Figure 12: Shows both the corrected code input and its output results after the addressing the errored line of code that triggered a built-in error description to be displayed in Figure 11. After the errored line of code was commented out <var = bad_var> and the wrong file name <’testfile.txt’> (responsible for error codes in displayed in Figures 4 & 5) was changed to <’test_file.txt’>, the "try: file = open(‘<example>’)" statement finally was able to run successfully without error disruptions (Figure 13). <br/><br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-12.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png)     , (external link)<br/>
+![ 7.3_Figure-12.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png "Figure-12.png")<br/>Figure 12: Shows both the corrected code input and its output results after the addressing the errored line of code that triggered a built-in error description to be displayed in Figure 11. After the errored line of code was commented out <var = bad_var> and the wrong file name <’testfile.txt’> (responsible for error codes in displayed in Figures 4 & 5) was changed to <’test_file.txt’>, the "try: file = open(‘<example>’)" statement finally was able to run successfully without error disruptions (Figure 13).<br/><br/>
+Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-12.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png)     , (external link)<br/>
 
 
 ### *7.3 Output (Successful debugging)*
