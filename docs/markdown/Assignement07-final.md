@@ -128,12 +128,10 @@ Figures 1 & 3 also shows that a Try/except exception block has been accepted in 
 ### *7.1 Input / Output "Starter-code" viewed in PyCharm (without exception handler)*
 
 Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.
-![ 7.1_Figure-3.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png "Figure-3.png")<br/>Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.<br/><br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/><br/>
+![ 7.1_Figure-3.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png "Figure-3.png")<br/>Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.<br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/>
 
 
 ### 7.1 Input code: Basic Exception Handling
-
-![image alt text](image_2.png)
 
 Figure 4: Shows how to manipulate the code from Figure 1 to successfully call an Exception handler to output a basic FileNotFound message back to the user whenever the defined exception occurs in the future. 
 
