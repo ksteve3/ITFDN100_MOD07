@@ -878,7 +878,7 @@ while True:
     else:
         print
         'READ: %s (%s)' % (o.name, o.name_backwards)
-	```
+```
 
 Listing 30
 
@@ -889,6 +889,7 @@ Source code: *[../lib/Pickle /2.5 /2.5c.py ](https://raw.githubusercontent.com/
 
 ![ 2.5c_Figure-31.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5c_Figure-31.png "Figure-31.png")<br/>Figure-31.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5c_Figure-31.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5c_Figure-31.png)     , (external link)<br/>
 *2.5(d) Input (pickle.load:)*
+
 
 ### 2.5(d) Input (pickle.load:)
 ```
@@ -931,7 +932,6 @@ Listing 32
 Source code: *[../lib/Pickle /2.5 /2.5d_Listing-32.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Listing-32.txt), (external link)<br/>
 Source code: *[../lib/Pickle /2.5 /2.5d.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d.py), (external link)<br/>
 
-### 2.5(d) Output (pickle.load:)
 
 ### *2.5(d) Output (pickle.load:)*
 ![ 2.5d_Figure-33.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-33.png "Figure-33.png")<br/>Figure-33.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5d_Figure-33.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-33.png)     , (external link)<br/>
@@ -957,17 +957,14 @@ This class takes a binary file for writing a pickle data stream.
 
 > > > > **Example : The below code creates an instance of pickle.Pickler with a private dispatch table handles the SomeClass class specially..**
 
-### *2.5(d) Output (pickle.load:)*
 
-![image alt text](image_30.png)
+> > ### *2.5(d) Output (pickle.load:)*
 
-Figure 34
+> > ![ 2.5d_Figure-34.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-34.png "Figure-34.png")<br/>Figure-34.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5d_Figure-34.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-34.png)     , (external link)<br/>
 
-[Figure-34.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.5/2.5d_Figure-34.png)
+Source code: *[../lib/Pickle /2.5 /2.5d_Listing-32.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Listing-32.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.5 /2.5d.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d.py), (external link)<br/>
 
-Source code: *[../lib/Pickle /2.5 /2.5d.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d.py), (external link)
-
-Source code: *[../lib/Pickle /2.5 /2.5d_Listing-32.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Listing-32.txt), (external link)
 
 * *4.Fast –*** **The fast mode disables the usage of memo and speeds up the pickling process by not generating superfluous PUT opcodes.
 
