@@ -239,29 +239,24 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 
 ## Defined Functions of Pickle Module: 
 
-*Apart from the Pickler and Unpickler classes, the module defines the following functions, and an exception:*
+#### *Apart from the Pickler and Unpickler classes, the module defines the following functions, and an exception:*
 
 > **dump** (*object, file*[*, bin*])
+> *Write a pickled representation of *object* to the open file object *file*. This is equivalent to "Pickler(*file*, *bin*).dump(*object*)". If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.*
 
-> *Write a pickled representation of *object* to the open file object *file*. This is equivalent to "Pickler(*file*, *bin*).dump(*object*)". If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.
+> **load** (*file*)
+> *Read a pickled object from the open file object *file*. This is equivalent to "Unpickler(*file*).load()".*
 
-**load** (*file*)
+> **dumps** (*object*[*, bin*])
+> *Return the pickled representation of the object as a string, instead of writing it to a file. If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.*
 
-Read a pickled object from the open file object *file*. This is equivalent to "Unpickler(*file*).load()".
+> **loads** (*string*)
+> *Read a pickled object from a string instead of a file. Characters in the string past the pickled object's representation are ignored.*
 
-**dumps** (*object*[*, bin*])
+### Pickle Exceptions
 
-Return the pickled representation of the object as a string, instead of writing it to a file. If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.
-
-**loads** (*string*)
-
-Read a pickled object from a string instead of a file. Characters in the string past the pickled object's representation are ignored.
-
-PicklingError
-
-This exception is raised when an unpicklable object is passed to Pickler.dump().
-
-Pickle Exceptions
+> **PicklingError**
+> *This exception is raised when an unpicklable object is passed to Pickler.dump().*
 
 Below are some of the common exceptions raised while dealing with pickle module −
 
