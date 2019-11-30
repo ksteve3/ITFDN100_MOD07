@@ -300,11 +300,11 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw
 > > >  User-defined classes and their instances: Marshal does not support these at all, but pickle can save and restore class instances transparently. The class definition must be importable and live in the same module as when the object was stored.
 
 
-### Disadvantages of Using Pickle Module
+### **Disadvantages of Using Pickle Module**
 
-> > > > Languages other than python may not able to reconstruct pickled python objects.
+> > > > **Languages other than python may not able to reconstruct pickled python objects.**
 
-> > > > Risk of unpickling data from malicious sources (see Figure 15 ) 
+> > > > **Risk of unpickling data from malicious sources (see Figure 15 )**
 
 ### **Security Alert** (At your own risk. Use with caution)
 
