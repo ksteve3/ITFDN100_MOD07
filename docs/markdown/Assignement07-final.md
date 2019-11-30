@@ -268,52 +268,48 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 
 ##### *See Also:*
 
-> Module [**copyreg]**](https://docs.python.org/2.0/lib/module-copyreg.html) [82] (external link):pickle interface constructor registration.
+> > Module [**copyreg]**](https://docs.python.org/2.0/lib/module-copyreg.html) [82] (external link):pickle interface constructor registration.
 
-> Module [**shelve**](https://docs.python.org/2.0/lib/module-shelve.html) [56]  (external link): indexed databases of objects; uses pickle.
+> > Module [**shelve**](https://docs.python.org/2.0/lib/module-shelve.html) [56]  (external link): indexed databases of objects; uses pickle.
 
-> Module [**copy**](https://docs.python.org/2.0/lib/module-copy.html)[83]] (external link): shallow and deep object copying.
+> > Module [**copy**](https://docs.python.org/2.0/lib/module-copy.html)[83]] (external link): shallow and deep object copying.
 
-> Module [**marsha:**](https://docs.python.org/2.0/lib/module-marshal.html)[58] (external link): high-performance serialization of built-in types.
+> > Module [**marsha:**](https://docs.python.org/2.0/lib/module-marshal.html)[58] (external link): high-performance serialization of built-in types.
 
 ### Advantages of using Pickle Module:
 
-> > Comes handy to save complicated data.
+> > > Comes handy to save complicated data.
 
-> > Easy to use, lighter and doesn’t require several lines of code.
+> > > Easy to use, lighter and doesn’t require several lines of code.
 
-> > The pickled file generated is not easily readable and thus provide some security.
+> > > The pickled file generated is not easily readable and thus provide some security.
 
-> > Recursive objects (objects containing references to themselves): Pickle keeps track of the objects it has already serialized, so later references to the same object won’t be serialized again. (The marshal module breaks for this.)
+> > > Recursive objects (objects containing references to themselves): Pickle keeps track of the objects it has already serialized, so later references to the same object won’t be serialized again. (The marshal module breaks for this.)
 
-> > Object sharing (references to the same object in different places): This is similar to self- referencing objects; pickle stores the object once and ensures that all other references point to the master copy. Shared objects remain shared, which can be very important for mutable objects.
+> > > Object sharing (references to the same object in different places): This is similar to self- referencing objects; pickle stores the object once and ensures that all other references point to the master copy. Shared objects remain shared, which can be very important for mutable objects.
 
-> > User-defined classes and their instances: Marshal does not support these at all, but pickle can save and restore class instances transparently. The class definition must be importable and live in the same module as when the object was stored.
+> > >  User-defined classes and their instances: Marshal does not support these at all, but pickle can save and restore class instances transparently. The class definition must be importable and live in the same module as when the object was stored.
+
 
 ### Disadvantages of Using Pickle Module
 
-> > Languages other than python may not able to reconstruct pickled python objects.
+> > > > Languages other than python may not able to reconstruct pickled python objects.
 
-> > Risk of unpickling data from malicious sources (see Figure 15 ) 
+> > > > Risk of unpickling data from malicious sources (see Figure 15 ) 
 
-### **Security Alert**
-#### **(At your own risk. Use with caution)**
+### **Security Alert** (At your own risk. Use with caution)
 
-![image alt text](image_13.png)
+![Warning Message_Figure 15-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png "Figure 15-Warning Message .png")<br/>Figure 15: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58] (external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 15.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png)     , (external link)<br/>
 
-Figure 15: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58] (external link)
+##### 2.1 Register Pickle Python.org [47][82][90]
 
-[Figure 15-Warning Message .png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png)
+##### *Example Code*
 
-##### 2.1 Register Pickle Python.org *[50], *[92], [70]
+# [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) — Register [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) support functions
 
-*Example Code*
+The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) module offers a way to define functions used while pickling specific objects.
 
-# [copyreg](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) — Register [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) support functions
-
-The [copyreg](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) module offers a way to define functions used while pickling specific objects.
-
-The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle), [cPickle](https://docs.python.org/2/library/pickle.html#module-cPickle), and [copy](https://docs.python.org/2/library/copy.html#module-copy) modules use those functions when pickling/copying those objects. The module provides configuration information about object constructors which are not classes. Such constructors may be factory functions or class instances.
+The [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle), [**cPickle**](https://docs.python.org/2/library/pickle.html#module-cPickle), and [**copy**](https://docs.python.org/2/library/copy.html#module-copy) modules use those functions when pickling/copying those objects. The module provides configuration information about object constructors which are not classes. Such constructors may be factory functions or class instances.
 
 #### *copyreg.constructor(object)*
 
