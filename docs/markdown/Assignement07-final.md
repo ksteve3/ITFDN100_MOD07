@@ -241,9 +241,9 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 
 *Apart from the Pickler and Unpickler classes, the module defines the following functions, and an exception:*
 
-**dump** (*object, file*[*, bin*])
+> **dump** (*object, file*[*, bin*])
 
-Write a pickled representation of *object* to the open file object *file*. This is equivalent to "Pickler(*file*, *bin*).dump(*object*)". If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.
+> *Write a pickled representation of *object* to the open file object *file*. This is equivalent to "Pickler(*file*, *bin*).dump(*object*)". If the optional *bin* argument is present and nonzero, the binary pickle format is used; if it is zero or absent, the (less efficient) text pickle format is used.
 
 **load** (*file*)
 
