@@ -1,9 +1,13 @@
+
+
 Kate Stevens  
+[GitHub Page](https://ksteve3.github.io/ITFDN100_MOD07/)  
 November 20, 2019  
 IT FDN 100 A  
 Assignment07  
 
 # Exception Handling & Pickling
+##### [GitHub Page](https://ksteve3.github.io/ITFDN100_MOD07/)
 
 > [**Assignment Overview**](https://canvas.uw.edu/courses/1342958/files/59791641?module_item_id=9973247)[65]  
 
@@ -1349,3 +1353,4 @@ Source code: *[../lib/Pickle /2.5 /2.5e.py ](https://raw.githubusercontent.com/k
 [122]	dotnet, "dotnet/docs," *GitHub*, 31-Oct-2019. [Online]. Available: https://github.com/dotnet/docs/blob/master/CONTRIBUTING.md#contributing-to-samples. [Accessed: 28-Nov-2019].
 
 [123]	dotnet, "dotnet/docs," *GitHub*, 31-Oct-2019. [Online]. Available: https://github.com/dotnet/docs/blob/master/CONTRIBUTING.md#contributing-to-samples. [Accessed: 28-Nov-2019].
+© 2019 GitHub, Inc.
