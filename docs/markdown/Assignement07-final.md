@@ -44,7 +44,7 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 ## Exception Handling in Python
 
-### *Examples 7.1, 7.2, 7.3*
+#### Examples 7.1, 7.2, 7.3
 
 ### *Follow the YouTube tutorial !*
 
@@ -70,17 +70,17 @@ Branch: master 
     <td> </td>
   </tr>
   <tr>
-    <td>**currupt_file.txt</td>
+    <td>currupt_file.txt</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
   <tr>
-    <td>**exceptions.py</td>
+    <td>exceptions.py</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
   <tr>
-    <td>**test_file.txt</td>
+    <td>test_file.txt</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
