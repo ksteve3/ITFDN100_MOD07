@@ -50,7 +50,7 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 ##### [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)[86] (external link), Timestamp: 00:50 
 
-*Download the Sample Code from GitHub !* 
+### *Download the Sample Code from GitHub !* 
 
 #### [CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
 
