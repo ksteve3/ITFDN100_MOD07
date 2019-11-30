@@ -144,26 +144,24 @@ Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.gith
 
 ![ 7.1_Figure-5.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png "Figure-5.png")<br/>Figure 5: Highlights the changes made in figure four resulting in the custom error message we input in Figure 4. <br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-5.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png)     , (external link)<br/>
 
-### 7.1 Output results: Basic Exception Handling
+### *7.1 Output results: Basic Exception Handling*
 
 ![ 7.1_Figure-6.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-6.png "Figure-6.png")<br/>Figure 6: 7.1 Solution output od code found in Figure 4<br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-6.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-6.png)     , (external link)<br/>
 
 
+## Example:7.2- *Custom Exception Handlers
 
-
-##### *Example:7.2- *Custom Exception Handlers
-
-7.2 Output Requirements:
+##### *7.2 Output Requirements:*
 
 *Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user of a FileNotFound error using custom error messages.  (Use Figure 5 input code as "starter-code")*
 
-# *7.2 Example Overview*
+#### *7.2 Example Overview*
 
-Figures  7, 8 & 9 show the successful implementation of a Try/Except exception handler using customized error handling messages for defined error occurrences. 
+*Figures  7, 8 & 9 show the successful implementation of a Try/Except exception handler using customized error handling messages for defined error occurrences. 
 
-Using the successful Try/except block code from Example 7.1, Figure 4 as "starter code", manipulate the Try/except block to implement multiple exception handlers with custom error message descriptions. 
+*Using the successful Try/except block code from Example 7.1, Figure 4 as "starter code", manipulate the Try/except block to implement multiple exception handlers with custom error message descriptions. 
 
-7.2 Input (use Figure 4 Input as starter code)
+### *7.2 Input (use Figure 4 Input as starter code)
 
 ![image alt text](image_5.png)
 
