@@ -10,11 +10,11 @@ Assignment07
 > *Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: [**Assigment07.pdf**](https://canvas.uw.edu/courses/1342958/modules/items/9973247) [65](external link), [**_Mod7PythonProgrammingNotes.pdf**](https://canvas.uw.edu/courses/1342958/modules/items/9973246)[67] (external link).*
 
 ## *Intro*
-The primary focus of week seven of Introduction to Python Programing, consisted of demonstrations on how to work with and configure error handling in Python which included the topics of try/except blocks, exception errors, built-in and custom error exceptions and exception classes, and Python’s Pickling Module. The secondary focus of this week was on learning how to use [basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) [86] (external link ) using Jekyll. used to build and present personal and professional scripting projects with GitHub Webpages. 
+> >  The primary focus of week seven of Introduction to Python Programing, consisted of demonstrations on how to work with and configure error handling in Python which included the topics of try/except blocks, exception errors, built-in and custom error exceptions and exception classes, and Python’s Pickling Module. The secondary focus of this week was on learning how to use [basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) [86] (external link ) using Jekyll. used to build and present personal and professional scripting projects with GitHub Webpages. 
 
-This weeks assignment consists of researching and documenting knowledge on the following bullet point topics and programming methods and presenting our research on GitHub Webpages using Jekyll’s writing and formatting syntax discussed in  Mod07 YouTube tutorial found at [Module07 Course Video ](https://youtu.be/4IkIdXJBC6o)[65] (external link), starting at 1:30:00.
+> > This weeks assignment consists of researching and documenting knowledge on the following bullet point topics and programming methods and presenting our research on GitHub Webpages using Jekyll’s writing and formatting syntax discussed in  Mod07 YouTube tutorial found at [Module07 Course Video ](https://youtu.be/4IkIdXJBC6o)[65] (external link), starting at 1:30:00.
 
-The following topics will be briefly discussed in this document containing the sources and conclusions of my research pertaining to Assignment07’s research exercise detailed in [Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247) [64] (external link).
+> > The following topics will be briefly discussed in this document containing the sources and conclusions of my research pertaining to Assignment07’s research exercise detailed in [Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247) [64] (external link).
 
 > > > > #### 1. [Exception Handling in Python ](#heading=h.tyjcwt)
 
@@ -22,29 +22,29 @@ The following topics will be briefly discussed in this document containing the s
 
 # *Exception Handling in Python*
 
-[**Assignment Overview**](https://canvas.uw.edu/courses/1342958/files/59791641?module_item_id=9973247)[65]
+> [**Assignment Overview**](https://canvas.uw.edu/courses/1342958/files/59791641?module_item_id=9973247)[65]
 
->>#### *Search the web for examples of how to use Python’s exception handing features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way.*
+>  #### *Search the web for examples of how to use Python’s exception handing features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way.*
 
 ## *Topic overview*  
 
-*Exception handling protocols are written/implemented by a script’s author(s) to make troubleshooting easier for users or other developers. This type of script editing helps to replace long, incomprehensible traceback error messages (for those who are not developers) with more specific and/or conducive instruction to follow if an error occurs while running a script/program.  
+> > *Exception handling protocols are written/implemented by a script’s author(s) to make troubleshooting easier for users or other developers. This type of script editing helps to replace long, incomprehensible traceback error messages (for those who are not developers) with more specific and/or conducive instruction to follow if an error occurs while running a script/program.  
 
-These traceback errors can appear with basic user interaction, reading /writing data files, and edits or manipulation to the code that prevents the program from running correctly. If traceback messages are not addressed and met with some form of error anticipation/moderation by the script author(s), it will cut back on intended efficiency and productivity for other developers as well as deter others from using, utilizing or running the program altogether. To help guide or provide a user or fellow developer with a good experience using your program/script, many programmers will start by refining their code using "if/Elif" Error Handling processes.
+> > These traceback errors can appear with basic user interaction, reading /writing data files, and edits or manipulation to the code that prevents the program from running correctly. If traceback messages are not addressed and met with some form of error anticipation/moderation by the script author(s), it will cut back on intended efficiency and productivity for other developers as well as deter others from using, utilizing or running the program altogether. To help guide or provide a user or fellow developer with a good experience using your program/script, many programmers will start by refining their code using "if/Elif" Error Handling processes.
 
-Error handling is also useful for developers because it provides useful insight to anticipate sections of our code that might throw an error or an exception for other future users down the road. 
+> > Error handling is also useful for developers because it provides useful insight to anticipate sections of our code that might throw an error or an exception for other future users down the road. 
 
-With this information, developers can try to configure error blocks and handle them in the way that we want instead of allowing Python (and/or other programming languages) to auto-generate and present a string of obscure and/or vague error messages to the end-user.
+> > With this information, developers can try to configure error blocks and handle them in the way that we want instead of allowing Python (and/or other programming languages) to auto-generate and present a string of obscure and/or vague error messages to the end-user.
 
-I located external sources by searching ‘Exception Handling’ key phrases mentioned in [_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246) [68] (external link, Listing 11-15). The Top two resources I found most useful (other than the [Module07 Course Video[65] ](https://youtu.be/4IkIdXJBC6o)(external link)) was in the format of a YouTube Tutorial, [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8) [86] (external link) and it’s linked [GitHub Repository page](https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2FCoreyMSchafer%2Fcode_snippets%2Ftree%2Fmaster%2FExceptions&event=video_description&v=NIWwJbo-9_8&redir_token=xVJvI7xsA5txpuMJMcr_Z2-gkJB8MTU3NDQ4MTIxM0AxNTc0Mzk0ODEz) [87] (external link) posted in the authors information. I appreciated how closely related the examples were to the material discussed in the Mod07 tutorial, as many of the outside resources I come across tend to be either more advanced/specialized modifications or workarounds with limited description.
+> > I located external sources by searching ‘Exception Handling’ key phrases mentioned in [_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246) [68] (external link, Listing 11-15). The Top two resources I found most useful (other than the [Module07 Course Video[65] ](https://youtu.be/4IkIdXJBC6o)(external link)) was in the format of a YouTube Tutorial, [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8) [86] (external link) and it’s linked [GitHub Repository page](https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2FCoreyMSchafer%2Fcode_snippets%2Ftree%2Fmaster%2FExceptions&event=video_description&v=NIWwJbo-9_8&redir_token=xVJvI7xsA5txpuMJMcr_Z2-gkJB8MTU3NDQ4MTIxM0AxNTc0Mzk0ODEz) [87] (external link) posted in the authors information. I appreciated how closely related the examples were to the material discussed in the Mod07 tutorial, as many of the outside resources I come across tend to be either more advanced/specialized modifications or workarounds with limited description.
 
-The Exception Handling examples below describe three ways to implement Python’s Exception handling functionalities modeled in the YouTube Tutorial, [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8) [86](external link).
+> > The Exception Handling examples below describe three ways to implement Python’s Exception handling functionalities modeled in the YouTube Tutorial, [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8) [86](external link).
 
-The tutorial I choose to model the following examples from, stood out to me because it allowed the viewer to experience the narrators fluid and uncut thought process while evolving the code through several stages of performance and efficiency allowing the viewer to "Thought Shadow" every step of his development process and logic. 
+> > The tutorial I choose to model the following examples from, stood out to me because it allowed the viewer to experience the narrators fluid and uncut thought process while evolving the code through several stages of performance and efficiency allowing the viewer to "Thought Shadow" every step of his development process and logic. 
 
 ## Exception Handling in Python
 
-> > #### Examples 7.1, 7.2, 7.3
+> > **Examples 7.1, 7.2, 7.3**
 
 ### *Follow the YouTube tutorial !*
 
@@ -56,7 +56,7 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 > > Branch: master 
 
- > > *[code_snippets](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
+ > > [**code_snippets**](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
 
 > > <table>
   <tr>
