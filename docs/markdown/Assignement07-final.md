@@ -96,6 +96,10 @@ Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer
 
 ## Examples 7.1 - Basic Exception Handler
 
+### *Refer to :*
+
+### *[CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
+
 #### Description:
 
 *Anticipate areas in your code that may throw an error that will cause a user to see a default traceback error message when ran. Use the reference tutorial to learn how we can handle exceptions in specific ways to look at the control flow of a try/except/else/finally statement to replace default traceback error messages with custom or built-in error messages to help increase the speed and productivity of troubleshooting.
@@ -140,7 +144,7 @@ Source code: *[../lib/Exception Handling /7.1 /7.1_Listing-4.txt ](https://raw.
 Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-4.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-4.py), (external link)<br/>
 Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/test_file.txt), (external link)<br/>
 
-7.1 Input/output results: Basic Exception Handling
+### *7.1 Input/output results: Basic Exception Handling*
 
 ![ 7.1_Figure-5.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png "Figure-5.png")<br/>Figure 5: Highlights the changes made in figure four resulting in the custom error message we input in Figure 4. <br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-5.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png)     , (external link)<br/>
 
@@ -150,6 +154,10 @@ Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.gith
 
 
 ## Example:7.2- *Custom Exception Handlers
+
+### *Refer to :*
+
+### *[CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
 
 #### *7.2 Output Requirements:*
 
@@ -161,7 +169,7 @@ Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.gith
 
 *Using the successful Try/except block code from Example 7.1, Figure 4 as "starter code", manipulate the Try/except block to implement multiple exception handlers with custom error message descriptions. 
 
-### *7.2 Input (use Figure 4 Input as starter code)
+### *7.2 Input (use Figure 4 Input as starter code)*
 ![ 7.2_Figure-7.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.png "Figure-7.png")<br/>Figure 7:  Shows updated version of Try/except block after it has been manipulated using the "starter-code" from used in example 7.1, Figure 4.  This new Try/except block uses the developer’s custom exception handler descriptions to display error messages for multiple errors that could occur. <br/><br/>
 Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.png ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.png), (external link)<br/>
 Source code: *[../lib/Exception Handling /7.2 /7.2_Listing-7.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Listing-7.txt), (external link)<br/>
@@ -177,15 +185,19 @@ Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.gi
 ![ 7.2_Figure-9.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png "Figure-9.png")<br/>Figure 9: Output of second Exception handler, which displays the custom error message, "2. Sorry, something else went wrong" when a name is not defined in the code. <br/><br/>Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-9.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png)     , (external link)<br/>
 
 
-### *Example:7.3 – Built-in Exception Handling *
+## Example:7.3 – Built-in Exception Handling *
 
-Please also refer to python.org "Built-in Exceptions — Python 2.5.17 documentation" [80]
+#### *Refer to :*
 
-###  7.3 Output Requirements:*  
+#### *[CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
+
+#### Please also refer to python.org [Built-in Exceptions — Python 2.5.17 documentation](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [81]
+
+####  *7.3 Output Requirements:*  
 
 Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user when an error occurs using Python’s built-in exception handlers.
 
-Example 7.3 Overview
+### Example 7.3 Overview
 
 Figures 10, 11 & 12 show the successful implementation of a Try/Except block using Python’s built-in error handling messages. 
 
