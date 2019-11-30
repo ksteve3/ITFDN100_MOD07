@@ -92,7 +92,7 @@ Branch: master 
 </table>
 
 
-Table 1: Get the Code - GitHub Snippet Repository contributed by **[CoreyMSchafer](https://github.com/CoreyMSchafer)* *(external link)
+Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer](https://github.com/CoreyMSchafer)*, (external link)
 
 ## *Examples 7.1 - Basic Exception Handler*
 
