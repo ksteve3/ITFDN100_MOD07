@@ -1,6 +1,6 @@
 
 
-Kate Stevens
+Kate Stevens  
 [GitHub Page](https://ksteve3.github.io/ITFDN100_MOD07/)  
 November 20, 2019  
 IT FDN 100 A  
