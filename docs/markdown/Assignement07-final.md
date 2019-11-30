@@ -121,7 +121,7 @@ Figures 1 & 3 also shows that a Try/except exception block has been accepted in 
 
 ### 7.1 Output "Starter-code" (without exception handler)
 
-![ 7.1_Figure-2.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png "https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png")<br/>Figure-2.png<br/>[Figure-2.png]
+![ 7.1_Figure-2.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png "Figure-2.png")<br/>Figure-2.png<br/>[Figure-2.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png)
 
 Figure 2: Default error message "output" displayed in CMD running code from Figure 1.
 
