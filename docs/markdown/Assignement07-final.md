@@ -20,9 +20,9 @@ The following topics will be briefly discussed in this document containing the s
 
 # [Pickling in Python ](#heading=h.qsh70q)
 
-#### *Exception Handling in Python *
+### *Exception Handling in Python *
 
-### *(Assignment Overview)** [71]*
+### *(Assignment Overview) [71]
 
 #### Search the web for examples of how to use Python’s exception handing features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way. 
 
