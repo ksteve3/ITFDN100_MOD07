@@ -42,9 +42,9 @@ The Exception Handling examples below describe three ways to implement Python’
 
 The tutorial I choose to model the following examples from, stood out to me because it allowed the viewer to experience the narrators fluid and uncut thought process while evolving the code through several stages of performance and efficiency allowing the viewer to "Thought Shadow" every step of his development process and logic. 
 
-## *Exception Handling in Python*
+## Exception Handling in Python
 
-#### Examples 7.1, 7.2, 7.3
+### *Examples 7.1, 7.2, 7.3*
 
 ### *Follow the YouTube tutorial !*
 
@@ -94,7 +94,7 @@ Branch: master 
 
 Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer](https://github.com/CoreyMSchafer)*, (external link)
 
-## *Examples 7.1 - Basic Exception Handler*
+## Examples 7.1 - Basic Exception Handler
 
 #### Description:
 
