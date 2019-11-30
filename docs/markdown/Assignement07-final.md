@@ -151,7 +151,7 @@ Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.gith
 
 ## Example:7.2- *Custom Exception Handlers
 
-##### *7.2 Output Requirements:*
+#### *7.2 Output Requirements:*
 
 *Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user of a FileNotFound error using custom error messages.  (Use Figure 5 input code as "starter-code")*
 
@@ -162,39 +162,29 @@ Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.gith
 *Using the successful Try/except block code from Example 7.1, Figure 4 as "starter code", manipulate the Try/except block to implement multiple exception handlers with custom error message descriptions. 
 
 ### *7.2 Input (use Figure 4 Input as starter code)
+![ 7.2_Figure-7.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.png "Figure-7.png")<br/>Figure 7:  Shows updated version of Try/except block after it has been manipulated using the "starter-code" from used in example 7.1, Figure 4.  This new Try/except block uses the developer’s custom exception handler descriptions to display error messages for multiple errors that could occur. <br/><br/>
+Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.png ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.png), (external link)<br/>
+Source code: *[../lib/Exception Handling /7.2 /7.2_Listing-7.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Listing-7.txt), (external link)<br/>
+Source code: *[../lib/Exception Handling /7.2 /test_file.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/test_file.txt), (external link)<br/>
+Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.py), (external link)<br/>
 
-![image alt text](image_5.png)
+### *7.2 Output (Figure 7 - first exception output)*
 
-Figure 7:  Shows updated version of Try/except block after it has been manipulated using the "starter-code" from used in example 7.1, Figure 4.  This new Try/except block uses the developer’s custom exception handler descriptions to display error messages for multiple errors that could occur. 
+![ 7.2_Figure-8.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-8.png "Figure-8.png")<br/>Figure 8: Output of first Exception handler, which displays a NameNotFound exception with a custom error message, "1. Sorry, this file does not exist" indicating the file name or the file path is wrong or does not exist in the project directory. Edit “open(‘<example>.py’)”.<br/><br/>Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-8.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-8.png)     , (external link)<br/>
 
-[Figure-7.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.png)
-
-##### Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.png ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.png), (external link)
-Source code: *[../lib/Exception Handling /7.2 /7.2_Listing-7.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Listing-7.txt), (external link)
-Source code: *[../lib/Exception Handling /7.2 /test_file.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/test_file.txt), (external link)
-Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-7.py), (external link)
-
-7.2 Output (Figure 7 - first exception output)
-
-![image alt text](image_6.png)
-
-Figure 8: Output of first Exception handler, which displays a NameNotFound exception with a custom error message, "1. Sorry, this file does not exist" indicating the file name or the file path is wrong or does not exist in the project directory. Edit “open(‘<example>.py’)”.
-
-[Figure-8.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-8.png)
-
-7.2 Output (Figure 7- second exception output)
+### *7.2 Output (Figure 7- second exception output)*
 
 ![image alt text](image_7.png)
 
 Figure 9: Output of second Exception handler, which displays the custom error message, "2. Sorry, something else went wrong" when a name is not defined in the code. 
 
-##### [Figure-9.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png)
+[Figure-9.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png)
 
 ### *Example:7.3 – Built-in Exception Handling *
 
 Please also refer to python.org "Built-in Exceptions — Python 2.5.17 documentation" [80]
 
-7.3 Output Requirements:  
+###  7.3 Output Requirements:*  
 
 Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user when an error occurs using Python’s built-in exception handlers.
 
