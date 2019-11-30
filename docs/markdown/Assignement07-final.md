@@ -46,19 +46,19 @@ Assignment07
 
 > > **Examples 7.1, 7.2, 7.3**
 
-### *Follow the YouTube tutorial !*
+> > ### *Follow the YouTube tutorial !*
 
-> > ##### [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 00:50 
+> > > ##### [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 00:50 
 
-### *Download the Sample Code from GitHub !* 
+> > ### *Download the Sample Code from GitHub !* 
 
-> > #### [CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
+> > > #### [CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
 
-> > Branch: master 
+> > >Branch: master 
 
- > > [**code_snippets**](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
+ > > > [**code_snippets**](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
 
-> > <table>
+> > > > <table>
   <tr>
     <td>Name</td>
     <td>Latest commit message</td>
