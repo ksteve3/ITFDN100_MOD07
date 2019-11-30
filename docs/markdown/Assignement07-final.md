@@ -56,7 +56,7 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 Branch: master 
 
-**[code_snippets](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
+ *[code_snippets](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
 
 <table>
   <tr>
