@@ -8,7 +8,7 @@ Assignment07
 #### Assignment07: 
 *Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: *[Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247)*[64]** (external link), *[_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246)* **[65]** **(external link).*
 
-## *Intro**
+## *Intro*
 
 The primary focus of week seven of Introduction to Python Programing, consisted of demonstrations on how to work with and configure error handling in Python which included the topics of try/except blocks, exception errors, built-in and custom error exceptions and exception classes, and Python’s Pickling Module. The secondary focus of this week was on learning how to use [basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) [86] (external link ) using Jekyll. used to build and present personal and professional scripting projects with GitHub Webpages. 
 
@@ -20,9 +20,9 @@ The following topics will be briefly discussed in this document containing the s
 
 ### [Pickling in Python ](#heading=h.qsh70q)
 
-# *Exception Handling in Python**
+# *Exception Handling in Python*
 
-#### *(Assignment Overview)** [71]
+#### *(Assignment Overview)* [71]
 
 #### Search the web for examples of how to use Python’s exception handing features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way. 
 
@@ -42,7 +42,7 @@ The Exception Handling examples below describe three ways to implement Python’
 
 The tutorial I choose to model the following examples from, stood out to me because it allowed the viewer to experience the narrators fluid and uncut thought process while evolving the code through several stages of performance and efficiency allowing the viewer to "Thought Shadow" every step of his development process and logic. 
 
-## *Exception Handling in Python**
+## *Exception Handling in Python*
 
 #### Examples 7.1, 7.2, 7.3
 
