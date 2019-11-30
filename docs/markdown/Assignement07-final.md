@@ -461,11 +461,7 @@ Source code: *[../lib/Pickle /2.2 /2.2 - Listing 19 .py ](https://raw.githubuse
 
 # *2.2 Output*
 
-{1: 'Zack', 2: '53050', 3: 'IT', 4: '38', 5: 'Flipkart'}
-
-Figure 20
-
-[Figure 20 .png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.2/2.2%20-%20Figure%2020%20.png)
+![ 2.2 - Figure 20 .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.2/2.2%20-%20Figure%2020%20.png "Figure 20 .png")<br/>Figure 20 .png<br/><br/>Source code: *[../lib/Pickle /2.2 /2.2 - Figure 20 .png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.2/2.2%20-%20Figure%2020%20.png)     , (external link)<br/>
 
 # *2.3 (a) Pickle Module for saving Objects by serialization** *[95]
 
