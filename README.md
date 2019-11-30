@@ -7,7 +7,7 @@
  ITFDN100 A<br/>
  Assignment07<br/>
  
- ## Quick links to the Assignment07 deliverables:  
+ ## Quick links to the Assignment07 deliverables on [ITFDN100_MOD7 GitPage]https://ksteve3.github.io/ITFDN100_MOD07/:  
 
 Assignment07 Docx: 
 
