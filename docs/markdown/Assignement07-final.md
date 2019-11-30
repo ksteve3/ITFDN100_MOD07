@@ -224,11 +224,11 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw
 
 # Pickling in Python
 
-#### *(Assignment Overview)[71]*
+> #### [**Assignment07.pdf**](https://canvas.uw.edu/courses/1342958/files/59791641?module_item_id=9973247)[65]
 
-*Search the web for examples of how to use Python’s Pickling features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way.*
+> *Search the web for examples of how to use Python’s Pickling features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way.*
 
-## :mod:`pickle` --- Python object serialization* [29]
+> > ## :mod:`pickle` --- Python object serialization*[15]
 
 The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49] module implements a fundamental, but powerful algorithm for serializing and de-serializing a Python object structure. "Pickling" is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” [49] or “flattening”, however, to avoid confusion, the terms used here are “pickling” and “unpickling”.
 
@@ -298,11 +298,11 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 
 ![Warning Message_Figure 15-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png "Figure 15-Warning Message .png")<br/>Figure 15: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58] (external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 15.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2015.png)     , (external link)<br/>
 
-##### 2.1 Register Pickle Python.org [47][82][90]
+## 2.1 Register Pickle Python.org [47][82][90]
 
-##### *Example Code*
+*Example Code*
 
-# [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) — Register [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) support functions
+ The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) — Register [**pickle**](https://docs.python.org/2/library/pickle.html#module-pickle) support functions
 
 The [**copyreg**](https://docs.python.org/2/library/copy_reg.html#module-copy_reg) module offers a way to define functions used while pickling specific objects.
 
