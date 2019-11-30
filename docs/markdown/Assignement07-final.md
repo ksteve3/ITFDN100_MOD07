@@ -130,7 +130,7 @@ Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-2.png   ](https://raw.
 ### *7.1 Input / Output "Starter-code" viewed in PyCharm (without exception handler)*
 
 Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.
-![ 7.1_Figure-3.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png "Figure-3.png")<br/>Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.<br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/>
+![ 7.1_Figure-3.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png "Figure-3.png")<br/>Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.<br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/><br/>
 
 
 7.1 Input code: Basic Exception Handling
