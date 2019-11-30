@@ -56,7 +56,7 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 Branch: master 
 
-**[code_snippets](https://github.com/CoreyMSchafer/code_snippets)**/**Exceptions
+**[code_snippets](https://github.com/CoreyMSchafer/code_snippets) / Exceptions
 
 <table>
   <tr>
@@ -70,17 +70,17 @@ Branch: master 
     <td> </td>
   </tr>
   <tr>
-    <td>**[currupt_file.txt](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/currupt_file.txt)</td>
+    <td>**currupt_file.txt</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
   <tr>
-    <td>**[exceptions.py](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/exceptions.py)</td>
+    <td>**exceptions.py</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
   <tr>
-    <td>**[test_file.txt](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/test_file.txt)</td>
+    <td>**test_file.txt</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
