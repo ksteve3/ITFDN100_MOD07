@@ -56,8 +56,6 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 Branch: master 
 
-**Top of Form**
-
 **[code_snippet**s](https://github.com/CoreyMSchafer/code_snippets)**/**Exceptions
 
 <table>
