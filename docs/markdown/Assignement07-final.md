@@ -28,7 +28,7 @@ The following topics will be briefly discussed in this document containing the s
 
 ## *Topic overview*  
 
-* Exception handling protocols are written/implemented by a script’s author(s) to make troubleshooting easier for users or other developers. This type of script editing helps to replace long, incomprehensible traceback error messages (for those who are not developers) with more specific and/or conducive instruction to follow if an error occurs while running a script/program.  
+*Exception handling protocols are written/implemented by a script’s author(s) to make troubleshooting easier for users or other developers. This type of script editing helps to replace long, incomprehensible traceback error messages (for those who are not developers) with more specific and/or conducive instruction to follow if an error occurs while running a script/program.  
 
 These traceback errors can appear with basic user interaction, reading /writing data files, and edits or manipulation to the code that prevents the program from running correctly. If traceback messages are not addressed and met with some form of error anticipation/moderation by the script author(s), it will cut back on intended efficiency and productivity for other developers as well as deter others from using, utilizing or running the program altogether. To help guide or provide a user or fellow developer with a good experience using your program/script, many programmers will start by refining their code using "if/Elif" Error Handling processes.
 
