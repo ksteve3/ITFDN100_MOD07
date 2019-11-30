@@ -123,16 +123,15 @@ Figures 1 & 3 also shows that a Try/except exception block has been accepted in 
 ### *7.1 Output "Starter-code" (without exception handler)*
 
 ![ 7.1_Figure-2.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png "Figure-2.png")<br/>Figure 2: Default error message "output" displayed in CMD running code from Figure 1.<br/>
+
 Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-2.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png)     , (external link)<br/>
 
 
 ### *7.1 Input / Output "Starter-code" viewed in PyCharm (without exception handler)*
 
-![image alt text](image_1.png)
-
 Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.
+![ 7.1_Figure-3.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png "Figure-3.png")<br/>Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.<br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/>
 
-[Figure-3.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)
 
 7.1 Input code: Basic Exception Handling
 
