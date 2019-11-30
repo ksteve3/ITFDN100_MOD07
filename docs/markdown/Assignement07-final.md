@@ -48,7 +48,7 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 *Follow the YouTube tutorial !*
 
-##### Video Tutorial Reference: [26],  *[Python Tutorial: Using Try/Except Blocks for Error Handlin*g](https://www.youtube.com/watch?v=NIWwJbo-9_8)[86] (external link), Timestamp: 00:50 
+##### *[Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)[86] (external link), Timestamp: 00:50 
 
 *Download the Sample Code from GitHub !* 
 
