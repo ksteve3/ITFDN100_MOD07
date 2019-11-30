@@ -8,5 +8,5 @@
 
 ### Content pages/docx
 
-[Assignement07.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignment07.md)
-[Assignement07.docx](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignement07.docx)
+[Assignement07.md](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignment07.md)<br/>
+[Assignement07.docx](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/Assignment07/Assignement07.docx)<br/>
