@@ -965,85 +965,142 @@ This class takes a binary file for writing a pickle data stream.
 Source code: *[../lib/Pickle /2.5 /2.5d.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d.py), (external link)<br/>
 
 
-* *4.Fast –*** **The fast mode disables the usage of memo and speeds up the pickling process by not generating superfluous PUT opcodes.
+> > > > [**4.Fast–**]The fast mode disables the usage of memo and speeds up the pickling process by not generating superfluous PUT opcodes.
 
-*2. class pickle.Unpickler(file, *, fix_imports = True, encoding = "ASCII", errors = “strict”)*
+> > #### * 2. [**class pickle.Unpickler(file, *, fix_imports = True, encoding = "ASCII", errors = “strict”)**]
  This class takes a binary file for reading a pickle data stream.
 
-* *1.load() –*** **This function is used to read a pickled object representation from the open file object file and return the reconstituted object hierarchy specified.
+> > > > * 1.[**load() –**]This function is used to read a pickled object representation from the open file object file and return the reconstituted object hierarchy specified.
 
-* *2.persistent_load(pid) –*** **This raises an UnpicklingError by default.
+> > > > * 2.[**persistent_load(pid)**] –*** **This raises an UnpicklingError by default.
 
-* *3.find_class(module, name) –*** **This function imports module if required and returns the object called name from it, where the module and name arguments are str objects.
+> > > > * 3.find_class(module, name) –*** **This function imports module if required and returns the object called name from it, where the module and name arguments are str objects.
 
-What can be pickled and unpickled?
-The following types can be pickled :
+#### What can be pickled and unpickled?
+#####*The following types can be pickled :*
 
-* None, True, and False
+> > > * None, True, and False
 
-* integers, floating point numbers, complex numbers
+> > > * integers, floating point numbers, complex numbers
 
-* strings, bytes, bytearrays
+> > > * strings, bytes, bytearrays
 
-* tuples, lists, sets, and dictionaries containing only picklable objects
+> > > * tuples, lists, sets, and dictionaries containing only picklable objects
 
-* functions defined at the top level of a module (using def, not lambda)
+> > > * functions defined at the top level of a module (using def, not lambda)
 
-* built-in functions defined at the top level of a module
+> > > * built-in functions defined at the top level of a module
 
-* classes that are defined at the top level of a module
+> > > * classes that are defined at the top level of a module
 
-* instances of such classes whose __dict__ or the result of calling __getstate__() is picklable
+> > > * instances of such classes whose __dict__ or the result of calling __getstate__() is picklable
 
-Pickling Class Instances :
-This section explains the general mechanisms available to define, customize, and control how class instances are pickled and unpickled.
-No additional code is needed to make instances picklable. By default, pickle will retrieve the class and the attributes of an instance via introspection.
+### Pickling Class Instances :
+> > *This section explains the general mechanisms available to define, customize, and control how class instances are pickled and unpickled.No additional code is needed to make instances picklable. By default, pickle will retrieve the class and the attributes of an instance via introspection.*
 
-Classes can alter the default behavior by providing one or several special methods :
+> > *Classes can alter the default behavior by providing one or several special methods :*
 
-* object.__getnewargs_ex__()
+* [** object.__getnewargs_ex__()**]
 This method dictates the values passed to the __new__() method upon unpickling. The method must return a pair (args, kwargs) where args is a tuple of positional arguments and kwargs a dictionary of named arguments for constructing the object.
 
-* object.__getnewargs__()
+* [**object.__getnewargs__()**]
 This method supports only positive arguments. It must return a tuple of arguments args which will be passed to the __new__() method upon unpickling.
 
-* object.__getstate__()
+* [**object.__getstate__()**]
 If this method is defined by classes, it is called and the returned object is pickled as the contents for the instance, instead of the contents of the instance’s dictionary.
 
-* object.__setstate__(state)
+* [** object.__setstate__(state)**]
 If this method is defined by classes, it is called with the unpickled state. The pickled state must be a dictionary and its items are assigned to the new instance’s dictionary.
 
-* object.__reduce__()
+* [**object.__reduce__()**]
 The __reduce__() method takes no argument and shall return either a string or preferably a tuple.
 
-* object.__reduce_ex__(protocol)
+* [**object.__reduce_ex__(protocol)**]
 This method is similar to __reduce__ method. 
 
-* It takes a single integer argument. The main use for this method is to provide backwards-compatible reduce values for older Python releases.
+* [**It takes a single integer argument. The main use for this method is to provide backwards-compatible reduce values for older Python releases.**]
 
-Example : Handling Stateful Objects
-This example shows how to modify pickling behavior for a class. The TextReader class opens a text file, and returns the line number and line *contents each time its readline() method is called.*
+### Example : Handling Stateful Objects
+>> *This example shows how to modify pickling behavior for a class. The TextReader class opens a text file, and returns the line number and line *contents each time its readline() method is called.*
 
-* *1.If a TextReader instance is pickled, all attributes except the file object member are saved.*
+> > > > * 1.If a TextReader instance is pickled, all attributes except the file object member are saved.*
 
-* *2.When the instance is unpickled, the file is reopened, and reading resumes from the last location.*
+> > > > * 2.When the instance is unpickled, the file is reopened, and reading resumes from the last location.*
 
-*2.5(e) Input (Handling Stateful Objects:)*
+### *2.5(e) Input (Handling Stateful Objects:)*
 
-![image alt text](image_31.png)Figure 35
-Source code: *[../lib/Pickle /2.5 /2.5e_Listing-35.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5e_Listing-35.txt), (external link)
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Reference: “Pickle — Python Object Serialization - GeeksforGeeks”
+# (GeeksforGeeks, June 8, 2017) <https://www.geeksforgeeks.org/pickle-python-object-serialization/> 
+# accessed November 24, 2019.
+# Research topic: Pickeling Module
+# Code Version 2.7.5
+# Description: Handling Stateful Objects: This example shows how to modify pickling behavior for a class. 
+# The TextReader class opens a text file, and returns the line number and line contents each time its readline() method is called.
 
-Source code: *[../lib/Pickle /2.5 /2.5e.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5e.py), (external link)
+class TextReader:
+	"""Print and number lines in a text file."""
 
-*2.5(e) Output (Handling Stateful Objects:)*
+	def __init__(self, filename):
+		self.filename = filename
+		self.file = open(filename)
+		self.lineno = 0
 
-![image alt text](image_32.png)
+	def readline(self):
+		self.lineno + = 1
+		line = self.file.readline()
+		if not line:
+			return None
+		if line.endswith('\n'):
+			line = line[:-1]
+		return "%i: %s" % (self.lineno, line)
 
-Figure 36
+	def __getstate__(self):
+		# Copy the object's state from self.__dict__ which contains
+		# all our instance attributes. Always use the dict.copy()
+		# method to avoid modifying the original state.
+		state = self.__dict__.copy()
+		# Remove the unpicklable entries.
+		del state['file']
+		return state
 
-[Figure-36.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.5/2.5e_Figure-36.png)
+	def __setstate__(self, state):
+		# Restore instance attributes (i.e., filename and lineno).
+		self.__dict__.update(state)
+		# Restore the previously opened file's state. To do so, we need to
+		# reopen it and read from it until the line count is restored.
+		file = open(self.filename)
+		for _ in range(self.lineno):
+			file.readline()
+		# Finally, save the file.
+		self.file = file
 
-*Bibliography*
+reader = TextReader("hello.txt")
+print(reader.readline())
+print(reader.readline())
+new_reader = pickle.loads(pickle.dumps(reader))
+print(new_reader.readline())
+```
+
+Listing 35
+
+Source code: *[../lib/Pickle /2.5 /2.5e_Listing-35.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5e_Listing-35.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.5 /2.5e.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5e.py), (external link)<br/>
+
+### *2.5(e) Output (Handling Stateful Objects:)*
+
+![ 2.5e_Figure-36.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5e_Figure-36.png "Figure-36.png")<br/>Figure-36.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5e_Figure-36.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5e_Figure-36.png)     , (external link)<br/>
+
+
+
+## *Bibliography*
+
 
 [1]	C. Schafer, "Python Tutorial: Using Try/Except Blocks for Error Handling," *Corey Schafer*. 2019.
 
