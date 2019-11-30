@@ -193,54 +193,45 @@ Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.gi
 
 #### Please also refer to python.org [Built-in Exceptions — Python 2.5.17 documentation](https://docs.python.org/2/library/exceptions.html#exceptions.TypeError) [81]
 
-####  *7.3 Output Requirements:*  
-
-Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user when an error occurs using Python’s built-in exception handlers.
-
-#### Example 7.3 Overview
+#### Examples in 7.3 Overview
 
 Figures 10, 11 & 12 show the successful implementation of a Try/Except block using Python’s built-in error handling messages. 
 
 Using the successful Try/except block from Example 7.2, Figure 7 as "starter code, manipulate the Try/except block code to implement multiple exception handlers with built-in error message descriptions.  
 
- ### 7.3 Input
+####  *7.3 Output Requirements:*  
+
+Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user when an error occurs using Python’s built-in exception handlers.
+
+ ### *7.3 Input*
 
 ![ 7.3_Figure-10.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-10.png "Figure-10.png")<br/>Figure 10:  Shows new version of Try/except block after it has been manipulated using the "starter-code" used in example 7.2, Figure 7  This new Try/except block uses Python’s “Built-in” exception handlers to display multiple error message descriptions to display a variety of different errors that could occur. <br/><br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-10.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-10.png)     , (external link)<br/>
 Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Listing-10.txt), (external link)
 </br>Source code: *[../lib/Exception Handling /7.3 /7.3.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3.py), (external link)
 </br>Source code: *[../lib/Exception Handling /7.3 /test_file.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/test_file.txt), (external link)
 
-### 7.3 Output
+### *7.3 Output*
 
-![image alt text](image_9.png)
+![ 7.3_Figure-11.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-11.png "Figure-11.png")<br/>Figure 11: Output of first Exception handler, which displays a name error exception with a built-in error handling message, "name ‘bad_var is not defined" indicating the file name or variable has not been defined in the code.<br/><br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-11.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-11.png)     , (external link)<br/>
 
-Figure 11: Output of first Exception handler, which displays a name error exception with a built-in error handling message, "name ‘bad_var is not defined" indicating the file name or variable has not been defined in the code.
 
-[Figure-11.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-11.png)
+### *7.3 Input / Output PyCharm Overview*
 
-7.3 Input / Output PyCharm Overview
+![ 7.3_Figure-12.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png "Figure-12.png")<br/>Figure 12: Shows both the corrected code input and its output results after the addressing the errored line of code that triggered a built-in error description to be displayed in Figure 11. After the errored line of code was commented out <var = bad_var> and the wrong file name <’testfile.txt’> (responsible for error codes in displayed in Figures 4 & 5) was changed to <’test_file.txt’>, the "try: file = open(‘<example>’)" statement finally was able to run successfully without error disruptions (Figure 13). <br/><br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-12.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png)     , (external link)<br/>
 
-![image alt text](image_10.png)
 
-Figure 12: Shows both the corrected code input and its output results after the addressing the errored line of code that triggered a built-in error description to be displayed in Figure 11. After the errored line of code was commented out <var = bad_var> and the wrong file name <’testfile.txt’> (responsible for error codes in displayed in Figures 4 & 5) was changed to <’test_file.txt’>, the "try: file = open(‘<example>’)" statement finally was able to run successfully without error disruptions (Figure 13). 
+### *7.3 Output (Successful debugging)*
 
-##### [Figure-12.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-12.png)
+![ 7.3_Figure-13.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-13.png "Figure-13.png")<br/>Figure 13: Exception handling success!<br/><br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-13.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-13.png)     , (external link)<br/>
 
-7.3 Output (Successful debugging)
 
-![image alt text](image_11.png)
+## Pickling in Python
 
-Figure 13: Exception handling success!
-
-##### [Figure-13.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-13.png)
-
-Pickling in Python
-
-* (Assignment Overview)** **[71]*
+#### *(Assignment Overview)[71]*
 
 *Search the web for examples of how to use Python’s Pickling features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way.*
 
-*:mod:`pickle` --- Python object serialization* [29]
+### :mod:`pickle` --- Python object serialization* [29]
 
 The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49] module implements a fundamental, but powerful algorithm for serializing and de-serializing a Python object structure. "Pickling" is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” [49] or “flattening”, however, to avoid confusion, the terms used here are “pickling” and “unpickling”.
 
