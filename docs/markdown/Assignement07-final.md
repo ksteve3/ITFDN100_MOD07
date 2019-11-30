@@ -5,8 +5,8 @@ Assignment07
 
 # Exception Handling & Pickling
 
-#### Assignment07: 
-*Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: *[Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247)**[64]** (external link), *[_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246)**[65]** (external link).
+>>##### *Assignment07:*
+>>*Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: *[Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247)**[64]** (external link), *[_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246)**[65]** (external link).
 
 ## *Intro*
 The primary focus of week seven of Introduction to Python Programing, consisted of demonstrations on how to work with and configure error handling in Python which included the topics of try/except blocks, exception errors, built-in and custom error exceptions and exception classes, and Python’s Pickling Module. The secondary focus of this week was on learning how to use [basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) [86] (external link ) using Jekyll. used to build and present personal and professional scripting projects with GitHub Webpages. 
@@ -43,21 +43,21 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 ## Exception Handling in Python
 
-#### Examples 7.1, 7.2, 7.3
+> > #### Examples 7.1, 7.2, 7.3
 
 ### *Follow the YouTube tutorial !*
 
-##### [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)[86] (external link), Timestamp: 00:50 
+> > ##### [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)[1] (external link), Timestamp: 00:50 
 
 ### *Download the Sample Code from GitHub !* 
 
-#### [CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
+> > #### [CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)
 
-Branch: master 
+> > Branch: master 
 
- *[code_snippets](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
+ > > *[code_snippets](https://github.com/CoreyMSchafer/code_snippets) / Exceptions*
 
-<table>
+> > <table>
   <tr>
     <td>Name</td>
     <td>Latest commit message</td>
