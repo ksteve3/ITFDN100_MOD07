@@ -1,15 +1,14 @@
-Kate Stevens
-November 20, 2019
-IT FDN 100 A
-Assignment07
+Kate Stevens  
+November 20, 2019  
+IT FDN 100 A  
+Assignment07  
 
 # Exception Handling & Pickling
 
 #### Assignment07: 
-*Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: *[Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247)*[64]** (external link), *[_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246)* **[65]** **(external link).*
+*Research and document your knowledge about the use and benefits of the Pickle module and exception handling in Python. The full assignment and further notes following this week’s discussions can be viewed or downloaded here: *[Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247)**[64]** (external link), *[_Mod7PythonProgrammingNotes.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973246)**[65]** (external link).
 
 ## *Intro*
-
 The primary focus of week seven of Introduction to Python Programing, consisted of demonstrations on how to work with and configure error handling in Python which included the topics of try/except blocks, exception errors, built-in and custom error exceptions and exception classes, and Python’s Pickling Module. The secondary focus of this week was on learning how to use [basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) [86] (external link ) using Jekyll. used to build and present personal and professional scripting projects with GitHub Webpages. 
 
 This weeks assignment consists of researching and documenting knowledge on the following bullet point topics and programming methods and presenting our research on GitHub Webpages using Jekyll’s writing and formatting syntax discussed in  Mod07 YouTube tutorial found at [Module07 Course Video ](https://youtu.be/4IkIdXJBC6o)[65] (external link), starting at 1:30:00.
