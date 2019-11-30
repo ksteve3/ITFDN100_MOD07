@@ -174,11 +174,8 @@ Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.gi
 
 ### *7.2 Output (Figure 7- second exception output)*
 
-![image alt text](image_7.png)
+![ 7.2_Figure-9.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png "Figure-9.png")<br/>Figure 9: Output of second Exception handler, which displays the custom error message, "2. Sorry, something else went wrong" when a name is not defined in the code. <br/><br/>Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-9.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png)     , (external link)<br/>
 
-Figure 9: Output of second Exception handler, which displays the custom error message, "2. Sorry, something else went wrong" when a name is not defined in the code. 
-
-[Figure-9.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.2/7.2_Figure-9.png)
 
 ### *Example:7.3 – Built-in Exception Handling *
 
