@@ -96,30 +96,28 @@ Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer
 
 ## Examples 7.1 - Basic Exception Handler
 
-### *Refer to :*
+### **Refer to :**
 #### *[CoreyMSchafer](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
 
 > **Description:**
 
 > *Anticipate areas in your code that may throw an error that will cause a user to see a default traceback error message when ran. Use the reference tutorial to learn how we can handle exceptions in specific ways to look at the control flow of a try/except/else/finally statement to replace default traceback error messages with custom or built-in error messages to help increase the speed and productivity of troubleshooting.*
 
-##### **7.1 Example overview:**
+> ##### **7.1 Example overview:**
 
-Example 7.1, starts out with Starter-code (Figure 1) from the YouTube tutorial, referenced above, that has that has two problems to be addressed in order to achieve the desired output requirements (above).  
+> Example 7.1, starts out with Starter-code (Figure 1) from the YouTube tutorial, referenced above, that has that has two problems to be addressed in order to achieve the desired output requirements (above).  
 
+> > > **Error 1:**
 
-##### **7.1 Output Requirements:**
+> > >In this case the code instructs to open a file, however the name of the file specified as ‘testfile.txt’ (Figure 1, Figures 3 red) which does not exist in the project’s directory, because the name of the file or path is wrong which result in a default traceback error message when the code is run. 
 
-Create a Try/Except code handling block with limited capabilities to notify the developer/user of a FileNotFound error.  
+> > > **Error 2:**
 
+> > > Figures 1 & 3 also shows that a Try/except exception block has been accepted in the code but skipped over because the exception is read as a "pass" otherwise known as a placeholder. In order to implement an Exception handler to override Python’s default traceback error message shown in (Figures 1 & 3), the developer must replace “pass” (shown in Figures 1 & 3) with a valid exception handler. 
 
-> > **Error 1:**
+> ##### **7.1 Output Requirements:**
 
-> > In this case the code instructs to open a file, however the name of the file specified as ‘testfile.txt’ (Figure 1, Figures 3 red) which does not exist in the project’s directory, because the name of the file or path is wrong which result in a default traceback error message when the code is run. 
-
-> > **Error 2:**
-
-> > Figures 1 & 3 also shows that a Try/except exception block has been accepted in the code but skipped over because the exception is read as a "pass" otherwise known as a placeholder. In order to implement an Exception handler to override Python’s default traceback error message shown in (Figures 1 & 3), the developer must replace “pass” (shown in Figures 1 & 3) with a valid exception handler. 
+> Create a Try/Except code handling block with limited capabilities to notify the developer/user of a FileNotFound error.  
 
 ### *7.1 Input "Starter-code" (without exception handler)*
 
