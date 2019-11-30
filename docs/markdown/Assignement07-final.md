@@ -56,7 +56,7 @@ The tutorial I choose to model the following examples from, stood out to me beca
 
 Branch: master 
 
-**[code_snippet**s](https://github.com/CoreyMSchafer/code_snippets)**/**Exceptions
+**[code_snippets](https://github.com/CoreyMSchafer/code_snippets)**/**Exceptions
 
 <table>
   <tr>
@@ -70,17 +70,17 @@ Branch: master 
     <td> </td>
   </tr>
   <tr>
-    <td>[currupt_file.txt](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/currupt_file.txt)</td>
+    <td>*[currupt_file.txt](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/currupt_file.txt)</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
   <tr>
-    <td>[exceptions.py](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/exceptions.py)</td>
+    <td>*[exceptions.py](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/exceptions.py)</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
   <tr>
-    <td>[test_file.txt](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/test_file.txt)</td>
+    <td>*[test_file.txt](https://github.com/CoreyMSchafer/code_snippets/blob/master/Exceptions/test_file.txt)</td>
     <td>Added Python code snippets</td>
     <td>3 years ago</td>
   </tr>
@@ -96,11 +96,11 @@ Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer
 
 ## *Examples 7.1 - Basic Exception Handler*
 
-Description:
+#### Description:
 
- Anticipate areas in your code that may throw an error that will cause a user to see a default traceback error message when ran. Use the reference tutorial to learn how we can handle exceptions in specific ways to look at the control flow of a try/except/else/finally statement to replace default traceback error messages with custom or built-in error messages to help increase the speed and productivity of troubleshooting.
+*Anticipate areas in your code that may throw an error that will cause a user to see a default traceback error message when ran. Use the reference tutorial to learn how we can handle exceptions in specific ways to look at the control flow of a try/except/else/finally statement to replace default traceback error messages with custom or built-in error messages to help increase the speed and productivity of troubleshooting.
 
-### *7.1 Output Requirements:  *
+### *7.1 Output Requirements:*
 
 Create a Try/Except code handling block with limited capabilities to notify the developer/user of a FileNotFound error.  
 
