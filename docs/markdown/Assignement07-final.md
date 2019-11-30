@@ -258,19 +258,19 @@ The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49]
 > **PicklingError**
 > *This exception is raised when an unpicklable object is passed to Pickler.dump().*
 
-Below are some of the common exceptions raised while dealing with pickle module −
+##### *Below are some of the common exceptions raised while dealing with pickle module −*
 
-Pickle.PicklingError: If the pickle object doesn’t support pickling, this exception is raised.
+> **Pickle.PicklingError:** If the pickle object doesn’t support pickling, this exception is raised.
 
-Pickle.UnpicklingError: In case the file contains bad or corrupted data.
+> **Pickle.UnpicklingError:** In case the file contains bad or corrupted data.
 
-EOFError: In case the end of file is detected, this exception is raised.
+> **EOFError:** In case the end of file is detected, this exception is raised.
 
-*See Also:*
+##### *See Also:*
 
-* Module [copyreg](https://docs.python.org/2.0/lib/module-copyreg.html) [32] (external link):
+> [**Module [copyreg]**](https://docs.python.org/2.0/lib/module-copyreg.html) [32] (external link):
 
-* pickle interface constructor registration.
+> **pickle interface constructor registration.**
 
 <table>
   <tr>
@@ -278,18 +278,13 @@ EOFError: In case the end of file is detected, this exception is raised.
   </tr>
 </table>
 
+Table 2: indexed databases of objects; uses pickle.
 
-* indexed databases of objects; uses pickle.
+> **Module [copy](https://docs.python.org/2.0/lib/module-copy.html)[91] (external link): shallow and deep object copying.
 
-* Module [copy](https://docs.python.org/2.0/lib/module-copy.html)[91] (external link):
+> **Module [marsha:](https://docs.python.org/2.0/lib/module-marshal.html)[l](https://docs.python.org/2.0/lib/module-marshal.html) [63](external link): high-performance serialization of built-in types.
 
-* shallow and deep object copying.
-
-* Module [marsha](https://docs.python.org/2.0/lib/module-marshal.html)[l](https://docs.python.org/2.0/lib/module-marshal.html) [63](external link):
-
-high-performance serialization of built-in types.
-
-Advantages of using Pickle Module:
+### Advantages of using Pickle Module:
 
 * Comes handy to save complicated data.
 
