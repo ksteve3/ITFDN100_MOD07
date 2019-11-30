@@ -235,13 +235,9 @@ Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw
 
 The [pickle](https://docs.python.org/2/library/pickle.html#module-pickle) [49] module implements a fundamental, but powerful algorithm for serializing and de-serializing a Python object structure. "Pickling" is the process whereby a Python object hierarchy is converted into a byte stream, and “unpickling” is the inverse operation, whereby a byte stream is converted back into an object hierarchy. Pickling (and unpickling) is alternatively known as “serialization”, “marshalling,” [49] or “flattening”, however, to avoid confusion, the terms used here are “pickling” and “unpickling”.
 
-![image alt text](image_12.png)
+![Warning Message _Figure 14-Warning Message .png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png "Figure 14-Warning Message .png")<br/>Figure 14: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58](external link)<br/><br/>Source code: *[../lib/Pickle /Warning messages /Figure 14.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png)     , (external link)<br/>
 
-Figure 14: Security warning - [python.org](https://docs.python.org/3/library/pickle.html) [58](external link)
-
-[Figure 14-Warning Message .png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/Warning%20messages/Figure%2014.png)
-
-# Defined Functions of Pickle Module: 
+## Defined Functions of Pickle Module: 
 
 *Apart from the Pickler and Unpickler classes, the module defines the following functions, and an exception:*
 
