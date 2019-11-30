@@ -132,11 +132,8 @@ Figure 3: Displays for the flawed Input errors resulting in an Output with defau
 
 
 ### 7.1 Input code: Basic Exception Handling
-![ 7.1_Figure-4.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-4.png "Figure-4.png")<br/>Figure 4: Shows how to manipulate the code from Figure 1 to successfully call an Exception handler to output a basic FileNotFound message back to the user whenever the defined exception occurs in the future. <br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-4.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-4.png)     , (external link)<br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-4.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-4.png)     , (external link)<br/><br/>
 
-
-
-[Figure-4.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-4.png)
+![ 7.1_Figure-4.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-4.png "Figure-4.png")<br/>Figure 4: Shows how to manipulate the code from Figure 1 to successfully call an Exception handler to output a basic *FileNotFound* message back to the user whenever the defined exception occurs in the future. <br/>
 
 Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-4.png ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-4.png), (external link)
 Source code: *[../lib/Exception Handling /7.1 /7.1_Listing-4.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Listing-4.txt), (external link)
