@@ -569,13 +569,16 @@ Listing 22
 Source code: *[../lib/Pickle /2.3 /2.3b - Listing 22.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3b%20-%20Listing%2022.txt), (external link)<br/>
 Source code: *[../lib/Pickle /2.3 /2.3b - Listing 22.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.3/2.3b%20-%20Listing%2022.py), (external link)<br/>
 
-### 2.4 Understanding Python Pickling [9]
+## 2.4 Understanding Python Pickling [9]
 
-> #### Prerequisite: [**Pickle Module**](https://www.geeksforgeeks.org/pickle-python-object-serialization/)[23]: **See Examples in   2.5**
+Refer to:
+[**Pickle Module*](https://www.geeksforgeeks.org/understanding-python-pickling-example/)[9](external link).
+
+> #### Prerequisite for these examples can be located at [**Pickle Module**](https://www.geeksforgeeks.org/pickle-python-object-serialization/)[23]: **See Examples in   2.5**
 
 > > Python pickle module is used for serializing and de-serializing a Python object structure. Any object in Python can be pickled so that it can be saved on disk. What pickle does is that it "serializes" the object first before writing it to file. Pickling is a way to convert a python object (list, dict, etc.) into a character stream. The idea is that this character stream contains all the information necessary to reconstruct the object in another python script.
 
-# 2.4 Input:
+### *2.4a Input:*
 
 ```
 # ------------------------------------------------------------------------ #
@@ -628,148 +631,333 @@ if __name__ == '__main__':
 	storeData() 
 	loadData() 
 ```
-Listing 23
+Listing 23 input
 
 Source code: **[../lib/Pickle /2.4 /2.4a - Listing 23 .txt* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Listing%2023%20.txt), (external link)<br/>
 Source code: **[../lib/Pickle /2.4 /2.4a - Listing 23.py* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Listing%2023.py), (external link)<br/>
 
-**2.4 Output:**
+### *2.4a Output:*
 
-![ 2.4a - Figure 24.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Figure%2024.png "Figure 24.png")<br/>Figure 24.png<br/><br/>Source code: *[../lib/Pickle /2.4 /2.4a - Figure 24.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Figure%2024.png)     , (external link)<br/>
+![ 2.4a - Figure 24.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Figure%2024.png "Figure 24 output.png")<br/>Figure 24.png<br/><br/>Source code: *[../lib/Pickle /2.4 /2.4a - Figure 24.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4a%20-%20Figure%2024.png)     , (external link)<br/>
 
-Source code: **[../lib/Pickle /2.4 /2.4b - Listing 25.py* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4b%20-%20Listing%2025.py), (external link)
-Source code: **[../lib/Pickle /2.4 /2.4b - Listing 25.txt* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4b%20-%20Listing%2025.txt), (external link)
+### *2.4b (Pickling without a file)*
 
-2.5 pickle—Python object serialization [23]
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Research topic: Pickle Module
+# Code Version: Example code 2.4
+# Pickling without a file
+# Understanding Python Pickling with example, https://www.geeksforgeeks.org/understanding-python-pickling-example/
 
-*The code samples in Section 2.5 (below) are the Prerequisites for installing the packages located on the **[Pickle Modul*e](https://www.geeksforgeeks.org/understanding-python-pickling-example/)* **[9](external link) page.*
+# initializing data to be stored in db
 
-*The pickle module is used for implementing binary protocols for serializing and de-serializing a Python object structure.*
+Omkar = {'key' : 'Omkar', 'name' : 'Omkar Pathak', 
+'age' : 21, 'pay' : 40000} 
+Jagdish = {'key' : 'Jagdish', 'name' : 'Jagdish Pathak', 
+'age' : 50, 'pay' : 50000} 
 
-* *Pickling: **It is a process where a Python object hierarchy is converted into a byte stream.*
+# database 
+db = {} 
+db['Omkar'] = Omkar 
+db['Jagdish'] = Jagdish 
 
-* *Unpickling: **It is the inverse of Pickling process where a byte stream is converted into an object hierarchy.*
+# For storing 
+b = pickle.dumps(db)	 # type(b) gives <class 'bytes'> 
 
-*Module Interface :*
+# For loading 
+myEntry = pickle.loads(b) 
+print(myEntry) 
+```
+Listing 25
 
-* *dumps()* – This function is called to serialize an object hierarchy.
+Source code: **[../lib/Pickle /2.4 /2.4b - Listing 25.py* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4b%20-%20Listing%2025.py), (external link)<br/>
+Source code: **[../lib/Pickle /2.4 /2.4b - Listing 25.txt* ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.4/2.4b%20-%20Listing%2025.txt), (external link)<br/>
 
-* *loads()* – This function is called to de-serialize a data stream.
+## [2.5 pickle—Python object serialization](https://www.geeksforgeeks.org/pickle-python-object-serialization/)[23]
 
-![image alt text](image_24.png)For more control over serialization and de-serialization, Pickler or an Unpickler objects are created, respectively.
+> Refer to:
+[pickle — Python object serialization](https://www.geeksforgeeks.org/pickle-python-object-serialization/
 
-# *Constants provided by the pickle module :*
+> The following code samples (below) are the Prerequisites for installing the packages mentioned in Example 2.4 (above), located at [**Pickle Module*](https://www.geeksforgeeks.org/understanding-python-pickling-example/)[9](external link).
 
-* pickle.HIGHEST_PROTOCOL
-This is an integer value representing the highest protocol version available. This is considered as the protocol value which is passed to the functions dump(), dumps().
+#### Definitions: 
 
-* pickle.DEFAULT_PROTOCOL
-This is an integer value representing the default protocol used for pickling whose value may be less than the value of highest protocol.
+**The pickle module is used for implementing binary protocols for serializing and de-serializing a Python object structure.**
 
-*Functions provided by the pickle module :*
+> > > [**Pickling:**] - It is a process where a Python object hierarchy is converted into a byte stream.*
 
-* *pickle.dump(obj, file, protocol = None, *, fix_imports = True)*
+> > > [**Unpickling:**] - It is the inverse of Pickling process where a byte stream is converted into an object hierarchy.*
 
-* *
-*This function is equivalent to Pickler (file, protocol).dump(obj). This is used to write a pickled representation of obj to the open file object file.
+**Module Interface :**
 
-* The optional protocol argument is an integer that tells the pickler to use the given protocol.
+> > > [**dumps()**] – This function is called to serialize an object hierarchy.
 
-* The supported protocols are 0 to HIGHEST_PROTOCOL. If not specified, the default is DEFAULT_PROTOCOL. If a negative number is specified, HIGHEST_PROTOCOL is selected.
+> > > [**loads()**] – This function is called to de-serialize a data stream.
 
-* If fix imports is true and protocol is less than 3, pickle will try to map the new Python 3 names to the old module names used in Python 2, so that the pickle data stream is readable with Python 2.
+#### [**For more control over serialization and de-serialization, Pickler or an Unpickler objects are created, respectively.**]
 
-*2.5(a) Input (pickle.dump:)*
+**Constants provided by the pickle module :**
 
-![image alt text](image_25.png)Listing 26
+> > > [**pickle.HIGHEST_PROTOCOL**] This is an integer value representing the highest protocol version available. This is considered as the protocol value which is passed to the functions dump(), dumps().
 
-Source code: *[../lib/Pickle /2.5 /2.5a_Listing-26.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5a_Listing-26.txt), (external link)
+> > > [**pickle.DEFAULT_PROTOCOL**] This is an integer value representing the default protocol used for pickling whose value may be less than the value of highest protocol.
 
-Source code: *[../lib/Pickle /2.5 /2.5a.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5a.py), (external link)
+**Functions provided by the pickle module:**
 
-*2.5(a) Output (pickle.dump:)*
+> > > [**pickle.dump(obj, file, protocol = None, *, fix_imports = True)**]
 
-***
+> > > This function is equivalent to Pickler (file, protocol).dump(obj). This is used to write a pickled representation of obj to the open file object file.
 
-Figure 27
+> > > The optional protocol argument is an integer that tells the pickler to use the given protocol.
 
-[Figure-27.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.5/2.5a_Figure-27.png)
+> > > The supported protocols are 0 to HIGHEST_PROTOCOL. If not specified, the default is DEFAULT_PROTOCOL. If a negative number is specified, HIGHEST_PROTOCOL is selected.
 
-*2.5(b) Input (pickle.load:)*
+> > > If fix imports is true and protocol is less than 3, pickle will try to map the new Python 3 names to the old module names used in Python 2, so that the pickle data stream is readable with Python 2.
 
-![image alt text](image_26.png)Listing 28
+### *2.5(a) Input (pickle.dump:)*
 
-Source code: *[../lib/Pickle /2.5 /2.5b.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5b.py), (external link)
-Source code: *[../lib/Pickle /2.5 /2.5b_Listing-28.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5b_Listing-28.txt), (external link)
 
-*2.5(b) Output (pickle.load:)*
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Reference: “Pickle — Python Object Serialization - GeeksforGeeks”
+# (GeeksforGeeks, June 8, 2017) <https://www.geeksforgeeks.org/pickle-python-object-serialization/> accessed November 24, 2019.
+# Research topic: Pickeling Module
+# Code Version 2.7.1
+# Description:pickle.dump(obj, file, protocol = None, *, fix_imports = True)
+# This function is equivalent to Pickler(file, protocol).dump(obj). This is used to write a pickled representation of obj to the open file object file.
+# The optional protocol argument is an integer that tells the pickler to use the given protocol.
+# The supported protocols are 0 to HIGHEST_PROTOCOL. If not specified, the default is DEFAULT_PROTOCOL.
+# If a negative number is specified, HIGHEST_PROTOCOL is selected.
+#
+# If fix_imports is true and protocol is less than 3, pickle will try to map the new Python
+# 3 names to the old module names used in Python 2, so that the pickle data stream is readable with Python 2.
 
-![image alt text](image_27.png)
+# Python program to illustrate
+# pickle.dump()
 
-Figure 29
+import pickle
+from StringIO import StringIO
 
-[Figure-29.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.5/2.5b_Figure-29.png)
+class SimpleObject(object):
 
-*2.5(c) Input (pickle.load:)*
+	def __init__(self, name):
+		self.name = name
+		l = list(name)
+		l.reverse()
+		self.name_backwards = ''.join(l)
+		return
 
-![image alt text](image_28.png)
+data = []
+data.append(SimpleObject('pickle'))
+data.append(SimpleObject('cPickle'))
+data.append(SimpleObject('last'))
+
+# Simulate a file with StringIO
+out_s = StringIO()
+
+# Write to the stream
+for o in data:
+	print 'WRITING: %s (%s)' % (o.name, o.name_backwards)
+	pickle.dump(o, out_s)
+	out_s.flush()
+```
+Listing 26
+
+Source code: *[../lib/Pickle /2.5 /2.5a_Listing-26.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5a_Listing-26.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.5 /2.5a.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5a.py), (external link)<br/>
+
+### *2.5(a) Output (pickle.dump:)*
+
+![ 2.5a_Figure-27.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5a_Figure-27.png "Figure-27.png")<br/>Figure-27.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5a_Figure-27.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5a_Figure-27.png)     , (external link)<br/>
+
+
+### *2.5(b) Input (pickle.load:)*
+
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Reference: “Pickle — Python Object Serialization - GeeksforGeeks”
+# (GeeksforGeeks, June 8, 2017) <https://www.geeksforgeeks.org/pickle-python-object-serialization/> 
+# accessed November 24, 2019.
+# Research topic: Pickeling Module
+# Code Version 2.7.2
+# Description:pickle.dumps(obj, protocol = None, *, fix_imports = True)
+# This function returns the pickled representation of the object as a bytes object.
+
+# Python program to illustrate
+# Picle.dumps()
+
+import pickle
+
+data = [ { 'a':'A', 'b':2, 'c':3.0 } ]
+data_string = pickle.dumps(data)
+print 'PICKLE:', data_string
+```
+Listing 28
+
+Source code: *[../lib/Pickle /2.5 /2.5b.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5b.py), (external link)<br/>
+Source code: *[../lib/Pickle /2.5 /2.5b_Listing-28.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5b_Listing-28.txt), (external link)<br/>
+
+### *2.5b Output (pickle.load:)*
+
+![ 2.5b_Figure-29.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5b_Figure-29.png "Figure-29.png")<br/>Figure-29.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5b_Figure-29.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5b_Figure-29.png)     , (external link)<br/>
+
+### *2.5(c) Input (pickle.load:)*
+
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Reference: “Pickle — Python Object Serialization - GeeksforGeeks”
+# (GeeksforGeeks, June 8, 2017) <https://www.geeksforgeeks.org/pickle-python-object-serialization/> 
+# accessed November 24, 2019.
+# Research topic: Pickeling Module
+# Code Version 2.7.3
+# Description:pickle.load(file, *, fix_imports = True, encoding = “ASCII”, errors = “strict”)
+# This function is equivalent to Unpickler(file).load(). This function is used to read a pickled 
+# object representation from the open file object file and return the reconstituted object hierarchy specified.
+# Python program to illustrate
+# pickle.load()
+
+
+import pickle
+from StringIO import StringIO
+
+
+class SimpleObject(object):
+
+    def __init__(self, name):
+        self.name = name
+        l = list(name)
+        l.reverse()
+        self.name_backwards = ''.join(l)
+        return
+
+
+data = []
+data.append(SimpleObject('pickle'))
+data.append(SimpleObject('cPickle'))
+data.append(SimpleObject('last'))
+
+# Simulate a file with StringIO
+out_s = StringIO()
+
+# Write to the stream
+for o in data:
+    print
+    'WRITING: %s (%s)' % (o.name, o.name_backwards)
+    pickle.dump(o, out_s)
+    out_s.flush()
+
+# Set up a read-able stream
+in_s = StringIO(out_s.getvalue())
+
+# Read the data
+while True:
+    try:
+        o = pickle.load(in_s)
+    except EOFError:
+        break
+    else:
+        print
+        'READ: %s (%s)' % (o.name, o.name_backwards)
+	```
 
 Listing 30
 
-Source code: *[../lib/Pickle /2.5 /2.5_Listing-30.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5_Listing-30.txt), (external link)
+Source code: *[../lib/Pickle /2.5 /2.5_Listing-30.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5_Listing-30.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.5 /2.5c.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5c.py), (external link)<br/>
 
-##### Source code: *[../lib/Pickle /2.5 /2.5c.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5c.py), (external link)
+### *2.5(c) Output (pickle.load:)*
 
-*2.5(c) Output (pickle.load:)*
-
-##### *
-
-Figure 31
-
-[Figure-31.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.5/2.5c_Figure-31.png)
-
+![ 2.5c_Figure-31.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5c_Figure-31.png "Figure-31.png")<br/>Figure-31.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5c_Figure-31.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5c_Figure-31.png)     , (external link)<br/>
 *2.5(d) Input (pickle.load:)*
 
-![image alt text](image_29.png)Listing 32
+### 2.5(d) Input (pickle.load:)
+```
+# ------------------------------------------------------------------------ #
+# Title: Assignment 07
+# Description: Research Exception Handling & Pickling in Python
+# ChangeLog (Who,When,What):
+# Kstevens,11-20-19,Modified code to complete assignment 7
+# ------------------------------------------------------------------------ #
+# Reference: “Pickle — Python Object Serialization - GeeksforGeeks”
+# (GeeksforGeeks, June 8, 2017) <https://www.geeksforgeeks.org/pickle-python-object-serialization/>
+# accessed November 24, 2019.
+# Research topic: Pickeling Module
+# Code Version 2.7.4
+# Description: pickle.loads(bytes_object, *, fix_imports = True, encoding = “ASCII”, errors = “strict”)
+# This function is used to read a pickled object representation from a bytes object and return
+# the reconstituted object hierarchy specified.
 
-Source code: *[../lib/Pickle /2.5 /2.5d_Listing-32.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Listing-32.txt), (external link)
+# Python program to illustrate
+# pickle.loads()
 
-Source code: *[../lib/Pickle /2.5 /2.5d.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d.py), (external link)
+import pickle
+import pprint
 
-*2.5(d) Output (pickle.load:)*
+data1 = [ { 'a':'A', 'b':2, 'c':3.0 } ]
+print 'BEFORE:',
+pprint.pprint(data1)
 
-***
+data1_string = pickle.dumps(data1)
 
-Figure 33
+data2 = pickle.loads(data1_string)
+print 'AFTER:',
+pprint.pprint(data2)
 
-[Figure-33.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Pickle/2.5/2.5d_Figure-33.png)
+print 'SAME?:', (data1 is data2)
+print 'EQUAL?:', (data1 == data2)
+```
+Listing 32
 
-*Exceptions provided by the pickle module :*
+Source code: *[../lib/Pickle /2.5 /2.5d_Listing-32.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Listing-32.txt), (external link)<br/>
+Source code: *[../lib/Pickle /2.5 /2.5d.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d.py), (external link)<br/>
 
-* 1.exception pickle.PickleError
-This exception inherits Exception. It is the base class for all other exceptions raised in pickling.
+### 2.5(d) Output (pickle.load:)
 
-* 2.exception pickle.PicklingError
-This exception inherits PickleError. This exception is raised when an unpicklable object is encountered by Pickler.
+### *2.5(d) Output (pickle.load:)*
+![ 2.5d_Figure-33.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-33.png "Figure-33.png")<br/>Figure-33.png<br/><br/>Source code: *[../lib/Pickle /2.5 /2.5d_Figure-33.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Pickle/2.5/2.5d_Figure-33.png)     , (external link)<br/>
 
-* 3.exception pickle.UnpicklingError
-This exception inherits PickleError. This exception is raised when there is a problem like data corruption or a security violation while unpickling an object.
+### **Exceptions provided by the pickle module :**
 
-# Classes exported by the pickle module:
+> > > * 1. [**exception pickle.PickleError**] This exception inherits Exception. It is the base class for all other exceptions raised in pickling.
 
-1. class pickle.Pickler(file, protocol = None, *, fix_imports = True)
+> > > * 2. [**exception pickle.PicklingError**] This exception inherits PickleError. This exception is raised when an unpicklable object is encountered by Pickler.
+
+> > > * 3. [**exception pickle.UnpicklingError**] This exception inherits PickleError. This exception is raised when there is a problem like data corruption or a security violation while unpickling an object.
+
+### **Classes exported by the pickle module:**
+
+> > #### * 1. [**class pickle.Pickler**](file, protocol = None, *, fix_imports = True)
 This class takes a binary file for writing a pickle data stream.
 
-* 1.dump(obj) – This function is used to write a pickled representation of obj to the open file object given in the constructor.
+> > > > * 1.[**dump(obj)**] – This function is used to write a pickled representation of obj to the open file object given in the constructor.
 
-* *2.persistent_id(obj) –* If persistent_id() returns None, obj is pickled as usual. This does nothing by deafult and exists so that any subclass can override it.
+> > > > * 2.[**persistent_id(obj)**] –* If persistent_id() returns None, obj is pickled as usual. This does nothing by deafult and exists so that any subclass can override it.
 
-* 3.Dispatch_table – A pickler object’s dispatch table is a mapping whose keys are classes and whose values are reduction functions.
-By default, a pickler object will not have a dispatch_table attribute, and it will instead use the global dispatch table managed by the copyreg module.
+> > > > * 3.[**Dispatch_table**] – A pickler object’s dispatch table is a mapping whose keys are classes and whose values are reduction functions. By default, a pickler object will not have a dispatch_table attribute, and it will instead use the global dispatch table managed by the copyreg module.
 
-Example : The below code creates an instance of pickle.Pickler with a private dispatch table handles the SomeClass class specially..
+> > > > **Example : The below code creates an instance of pickle.Pickler with a private dispatch table handles the SomeClass class specially..**
 
-*2.5(d) Output (pickle.load:)*
+### *2.5(d) Output (pickle.load:)*
 
 ![image alt text](image_30.png)
 
