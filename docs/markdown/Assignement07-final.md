@@ -1,6 +1,6 @@
-Kate Stevens
-November 20, 2019
-IT FDN 100 A
+Kate Stevens  
+November 20, 2019  
+IT FDN 100 A  
 Assignment07
 
 # Exception Handling & Pickling
