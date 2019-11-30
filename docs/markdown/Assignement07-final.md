@@ -92,7 +92,7 @@ Assignment07
 </table>
 > > > > Table 1: Get the Code - GitHub Snippet Repository contributed by *[CoreyMSchafer](https://github.com/CoreyMSchafer)*, (external link)
 
-## Examples 7.1 - Basic Exception Handler
+### Examples 7.1 - Basic Exception Handler
 
 > **Refer to :**
 > > #### [**CoreyMSchafer**](https://github.com/CoreyMSchafer)/[code_snippets](https://github.com/CoreyMSchafer/code_snippets)[2] (external link)*
@@ -101,7 +101,7 @@ Assignment07
 
 > *Anticipate areas in your code that may throw an error that will cause a user to see a default traceback error message when ran. Use the reference tutorial to learn how we can handle exceptions in specific ways to look at the control flow of a try/except/else/finally statement to replace default traceback error messages with custom or built-in error messages to help increase the speed and productivity of troubleshooting.*
 
-> ##### **7.1 Example overview:**
+> #### **7.1 Example overview:**
 
 > Example 7.1, starts out with Starter-code (Figure 1) from the YouTube tutorial, referenced above, that has that has two problems to be addressed in order to achieve the desired output requirements (above).  
 
@@ -113,9 +113,9 @@ Assignment07
 
 > > > Figures 1 & 3 also shows that a Try/except exception block has been accepted in the code but skipped over because the exception is read as a "pass" otherwise known as a placeholder. In order to implement an Exception handler to override Python’s default traceback error message shown in (Figures 1 & 3), the developer must replace “pass” (shown in Figures 1 & 3) with a valid exception handler. 
 
-> #### **7.1 Output Requirements:**
+> **7.1 Output Requirements:**
 
-> Create a Try/Except code handling block with limited capabilities to notify the developer/user of a FileNotFound error.  
+> **Create a Try/Except code handling block with limited capabilities to notify the developer/user of a FileNotFound error. **
 
 ### *7.1 Input "Starter-code" (without exception handler)*
 
@@ -126,7 +126,7 @@ Assignment07
 ![ 7.1_Figure-2.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png "Figure-2.png")<br/>Figure 2: Default error message "output" displayed in CMD running code from Figure 1.<br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-2.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-2.png)     , (external link)<br/><br/>
 
 
-### *7.1 Input / Output "Starter-code" viewed in PyCharm (without exception handler)*
+###*7.1 Input / Output "Starter-code" viewed in PyCharm (without exception handler)*
 
 Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.
 ![ 7.1_Figure-3.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png "Figure-3.png")<br/>Figure 3: Displays for the flawed Input errors resulting in an Output with default traceback error message.<br/><br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-3.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-3.png)     , (external link)<br/><br/>
