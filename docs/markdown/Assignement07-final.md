@@ -16,17 +16,17 @@ This weeks assignment consists of researching and documenting knowledge on the f
 
 The following topics will be briefly discussed in this document containing the sources and conclusions of my research pertaining to Assignment07’s research exercise detailed in [Assigment07.pdf](https://canvas.uw.edu/courses/1342958/modules/items/9973247) [64] (external link).
 
-# [Exception Handling in Python ](#heading=h.tyjcwt)
+### [Exception Handling in Python ](#heading=h.tyjcwt)
 
-# [Pickling in Python ](#heading=h.qsh70q)
+### [Pickling in Python ](#heading=h.qsh70q)
 
-### *Exception Handling in Python *
+## *Exception Handling in Python**
 
-### *(Assignment Overview) [71]
+#### *(Assignment Overview)** [71]
 
 #### Search the web for examples of how to use Python’s exception handing features. Make note of the URL for any pages you feel are good at explaining the subject, and why you feel that way. 
 
-# *(Topic overview)** 
+## *Topic overview*  
 
 Exception handling protocols are written/implemented by a script’s author(s) to make troubleshooting easier for users or other developers. This type of script editing helps to replace long, incomprehensible traceback error messages (for those who are not developers) with more specific and/or conducive instruction to follow if an error occurs while running a script/program.  
 
