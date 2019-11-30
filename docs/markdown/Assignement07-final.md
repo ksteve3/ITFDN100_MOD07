@@ -142,11 +142,7 @@ Source code: *[../lib/Exception Handling /7.1 /test_file.txt ](https://raw.gith
 
 7.1 Input/output results: Basic Exception Handling
 
-![image alt text](image_3.png)
-
-Figure 5: Highlights the changes made in figure four resulting in the custom error message we input in Figure 4. 
-
-##### [Figure-5.png](https://github.com/ksteve3/ITFDN100_MOD07/blob/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png)
+![ 7.1_Figure-5.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png "Figure-5.png")<br/>Figure 5: Highlights the changes made in figure four resulting in the custom error message we input in Figure 4. <br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-5.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png)     , (external link)<br/>Source code: *[../lib/Exception Handling /7.1 /7.1_Figure-5.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.1/7.1_Figure-5.png)     , (external link)<br/>
 
 7.1 Output results: Basic Exception Handling
 
