@@ -197,20 +197,20 @@ Source code: *[../lib/Exception Handling /7.2 /7.2_Figure-7.py ](https://raw.gi
 
 Create a Try/Except code handling block with multiple exception capabilities to notify the developer/user when an error occurs using Python’s built-in exception handlers.
 
-### Example 7.3 Overview
+#### Example 7.3 Overview
 
 Figures 10, 11 & 12 show the successful implementation of a Try/Except block using Python’s built-in error handling messages. 
 
 Using the successful Try/except block from Example 7.2, Figure 7 as "starter code, manipulate the Try/except block code to implement multiple exception handlers with built-in error message descriptions.  
 
- 7.3 Input
+ ### 7.3 Input
 
-![ 7.3_Figure-10.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-10.png "Figure-10.png")<br/>Figure 10:  Shows new version of Try/except block after it has been manipulated using the "starter-code" used in example 7.2, Figure 7  This new Try/except block uses Python’s “Built-in” exception handlers to display multiple error message descriptions to display a variety of different errors that could occur. <br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-10.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-10.png)     , (external link)<br/>
+![ 7.3_Figure-10.png](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-10.png "Figure-10.png")<br/>Figure 10:  Shows new version of Try/except block after it has been manipulated using the "starter-code" used in example 7.2, Figure 7  This new Try/except block uses Python’s “Built-in” exception handlers to display multiple error message descriptions to display a variety of different errors that could occur. <br/>Source code: *[../lib/Exception Handling /7.3 /7.3_Figure-10.png   ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Figure-10.png)     , (external link)<br/><br/>
 Source code: *[../lib/Exception Handling /7.3 /7.3_Listing-10.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3_Listing-10.txt), (external link)
 </br>Source code: *[../lib/Exception Handling /7.3 /7.3.py ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/7.3.py), (external link)
 </br>Source code: *[../lib/Exception Handling /7.3 /test_file.txt ](https://raw.githubusercontent.com/ksteve3/ITFDN100_MOD07/master/docs/lib/Exception%20Handling/7.3/test_file.txt), (external link)
 
-7.3 Output
+### 7.3 Output
 
 ![image alt text](image_9.png)
 
